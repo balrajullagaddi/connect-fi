@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/" debug="false">
+
+<!-- <appender name="fileAppender" class="org.apache.log4j.FileAppender">
+<param name="Threshold" value="INFO" />
+<param name="File" value="log/logfile.log"/>
+<layout class="org.apache.log4j.PatternLayout">
+<param name="ConversionPattern" value="%n [%p] %d{MMM-dd-yyyy HH:mm:ss:SSS} %n   %m %n %n "/>
+</layout>
+</appender> -->
+
+<!-- <appender name="fileAppender0" class="org.apache.log4j.ConsoleAppender">
+<param name="Threshold" value="INFO" />
+<layout class="org.apache.log4j.PatternLayout">
+<param name="ConversionPattern" value="%d %-5p [%t] %-17c{2} (%13F:%L) %3x - %m%n"/>
+</layout>
+</appender>
+
+<root>
+<level value="INFO"/>
+<appender-ref ref="fileAppender0"/>
+</root> -->
+
+<appender name="fileAppender1" class="org.apache.log4j.FileAppender">
+<param name="Threshold" value="INFO" />
+<param name="File" value="log/AutomationLog.log"/>
+<param name="Append" value="true"/>
+<layout class="org.apache.log4j.PatternLayout">
+<param name="ConversionPattern" value="%d %-5p [%t] %-17c{2} (%13F:%L) %3x - %m%n"/>
+</layout>
+</appender>
+
+<root>
+<level value="INFO"/>
+<appender-ref ref="fileAppender1"/> 
+</root>
+
+<!-- <appender name="fileAppender2" class="org.apache.log4j.FileAppender">
+<param name="Threshold" value="INFO" />
+<param name="File" value="log/AutomationTestRun.html"/>
+<param name="Append" value="true"/>
+<layout class="org.apache.log4j.HTMLLayout">
+<param name="Title" value="Automation Test Run HTML Layout"/>
+<param name="LocationInfo" value="true"/>
+<param name="ConversionPattern" value="%d %-5p [%t] %-17c{2} (%13F:%L) %3x - %m%n"/>
+</layout>
+</appender>
+
+<root>
+<level value="INFO"/>
+<appender-ref ref="fileAppender2"/>
+</root> -->
+
+</log4j:configuration>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Template for report -->
+<extentreports>
+<configuration>
+<theme>dark</theme>
+<encoding>UTF-8</encoding>
+<protocal>http</protocal>
+<documentTitle>Go Connect Automation</documentTitle>
+<name>Go Connect Automation Report</name>
+<dateFormat>dd-MM-YYY</dateFormat>
+<timeFormate>HH:mm:ss</timeFormate>
+<script>
+<![CDATA[
+$(document).ready(function(){
+});
+]]>
+</script>
+
+<styles>
+<![CDATA[
+]]>
+</styles>
+
+</configuration>
+</extentreports>

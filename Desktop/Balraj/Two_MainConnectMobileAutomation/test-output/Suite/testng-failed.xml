@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="config" value="DEVINT2"/>
+  <parameter name="platform" value="web"/>
+  <parameter name="mobileOS" value="android"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.northgateps.cm.testRunner.TestRunner_ST">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDownClass"/>
+          <include name="generateReport"/>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.northgateps.cm.testRunner.TestRunner_ST -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

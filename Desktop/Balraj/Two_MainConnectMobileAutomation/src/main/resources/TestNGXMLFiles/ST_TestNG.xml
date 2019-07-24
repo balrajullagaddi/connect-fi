@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+	<parameter name="config" value="DEVINT2" />
+	<parameter name="platform" value="web" />
+	<parameter name="mobileOS" value="android" />
+	<test name="Test" preserve-order="true" thread-count="1">
+		<classes>
+			<class name="com.northgateps.cm.testRunner.TestRunner_ST" />
+		</classes>
+	</test>
+</suite> 
