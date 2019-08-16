@@ -1,11 +1,13 @@
 package com.northgateps.cm.platform.api;
 
+//DATE RELATED FUNCTIONS FOR GETTING THE RELATIVE DATES
+
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.text.DateFormat;
 import java.text.ParseException;
-// DATE RELATED FUNCTIONS FOR GETTING THE RELATIVE DATES
+
 public class DateFunctions {
 
 	public DateFunctions() throws Exception {

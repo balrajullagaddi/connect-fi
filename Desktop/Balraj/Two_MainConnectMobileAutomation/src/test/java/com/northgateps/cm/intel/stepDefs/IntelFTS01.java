@@ -18,6 +18,21 @@ public class IntelFTS01 {
 		intelWebMobileWrapper = new IntelWebMobileWrapper();
 	}
 
+	//Location 
+	
+	@Given("^User is on Card Index screen for a 'Create Generic Investigation'$")
+	public void userIsOnCardIndexScreenForACreateGenericInvestigation() throws Throwable {
+		try {
+			invWebMobileWrapper.userIsOnCardIndexScreenForACreateGenericInvestigation();
+		} catch (Exception e) {
+			intelWebMobileWrapper.CloseFailedTest(LogFilePath, LogFilePath, "", TestName, e);
+		}catch (AssertionError e) {
+			intelWebMobileWrapper.CloseFailedTest(LogFilePath, LogFilePath, "", TestName, e.fillInStackTrace());
+
+		}
+
+	}
+	
 	@Given("^User is on Card Index screen for a 'Create intelligence report'$")
 	public void userIsOnCardIndexScreenForACreateIntelligenceReport() throws Exception {
 		try {
@@ -39,7 +54,34 @@ public class IntelFTS01 {
 			intelWebMobileWrapper.CloseFailedTest(LogFilePath, LogFilePath, "", TestName, e.fillInStackTrace());
 		}
 	}
+	//Location added from IntelFTS05
+	
+	@When("^User has completed all the fields on the \"(.*?)\" card with Link Reason \"(.*?)\"$")
+	public void userHasCompletedAllTheFieldsOnTheCardWithLinkReason(String card, String LinkReason) throws Exception {
+		try {
+			intelWebMobileWrapper.userHasCompletedAllTheFieldsOnTheCardWithLinkReason(card, LinkReason);
+		} catch (Exception e) {
+			intelWebMobileWrapper.CloseFailedTest(LogFilePath, LogFilePath, "", TestName, 
+					e);
+		} catch (AssertionError e) {
+			intelWebMobileWrapper.CloseFailedTest(LogFilePath, LogFilePath, "", TestName, 
+					e.fillInStackTrace());
+		}
+	}
 
+	//Location from IntelFTS02
+	
+	@When("^User saves \"(.*?)\" card with Link Reason \"(.*?)\"$")
+	public void userSavesCardWithLinkReason(String arg1, String arg2) throws Exception {
+		try {
+			intelWebMobileWrapper.userSavesCardWithLinkReason(arg1, arg2);
+		} catch (Exception e) {
+			intelWebMobileWrapper.CloseFailedTest( LogFilePath, LogFilePath, "", TestName, e);
+		}
+		catch (AssertionError e) {
+			intelWebMobileWrapper.CloseFailedTest( LogFilePath, LogFilePath, "", TestName, e.fillInStackTrace());
+		}
+	}
 	@When("^User has completed all the fields on 'Basic Details' card$")
 	public void userHasCompletedAllTheFieldsOnBasicDetailsCard() throws Exception {
 		try {

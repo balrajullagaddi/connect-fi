@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2314" started-at="2019-07-23T10:44:03Z" finished-at="2019-07-23T10:44:05Z">
+  <suite name="Suite" duration-ms="221724" started-at="2019-08-16T10:11:50Z" finished-at="2019-08-16T10:15:32Z">
     <groups>
       <group name="cucumber">
-        <method signature="CustomAbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.northgateps.cm.testRunner.TestRunner_ST@2758fe70]" name="feature" class="com.northgateps.cm.platform.api.CustomAbstractTestNGCucumberTests"/>
+        <method signature="CustomAbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.northgateps.cm.testRunner.TestRunner_ST@3dd4520b]" name="feature" class="com.northgateps.cm.platform.api.CustomAbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="2314" started-at="2019-07-23T10:44:03Z" finished-at="2019-07-23T10:44:05Z">
+    <test name="Test" duration-ms="221724" started-at="2019-08-16T10:11:50Z" finished-at="2019-08-16T10:15:32Z">
       <class name="com.northgateps.cm.testRunner.TestRunner_ST">
-        <test-method status="PASS" signature="setUpClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.northgateps.cm.testRunner.TestRunner_ST@2758fe70]" name="setUpClass" is-config="true" duration-ms="738" started-at="2019-07-23T16:14:03Z" finished-at="2019-07-23T16:14:04Z">
+        <test-method status="PASS" signature="setUpClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.northgateps.cm.testRunner.TestRunner_ST@3dd4520b]" name="setUpClass" is-config="true" duration-ms="476" started-at="2019-08-16T15:41:50Z" finished-at="2019-08-16T15:41:51Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[MET]]>
+                <![CDATA[DEVINT2]]>
               </value>
             </param>
             <param index="1">
@@ -31,24 +31,40 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.northgateps.cm.testRunner.TestRunner_ST@2758fe70]" name="setUp" is-config="true" duration-ms="1" started-at="2019-07-23T16:14:04Z" finished-at="2019-07-23T16:14:04Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.northgateps.cm.testRunner.TestRunner_ST@3dd4520b]" name="setUp" is-config="true" duration-ms="1" started-at="2019-08-16T15:41:51Z" finished-at="2019-08-16T15:41:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.northgateps.cm.testRunner.TestRunner_ST@2758fe70]" name="feature" duration-ms="1011" started-at="2019-07-23T16:14:04Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-07-23T16:14:05Z">
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.northgateps.cm.testRunner.TestRunner_ST@3dd4520b]" name="feature" duration-ms="220798" started-at="2019-08-16T15:41:51Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-08-16T15:45:31Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Intelligence smoke tests]]>
+                <![CDATA[Forensic Investigation Unit test for Source]]>
               </value>
             </param>
           </params>
           <exception class="cucumber.runtime.CucumberException">
             <message>
-              <![CDATA[java.lang.NullPointerException]]>
+              <![CDATA[java.lang.AssertionError: Test Failed due to this exception : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div[id^='ext-conm-cards-type-objectFooter-']"}
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\BALRAJ~1.ULL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60623}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0bc55daa691699cd11da115ea589b648
+*** Element info: {Using=css selector, value=div[id^='ext-conm-cards-type-objectFooter-']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[cucumber.runtime.CucumberException: java.lang.NullPointerException
+              <![CDATA[cucumber.runtime.CucumberException: java.lang.AssertionError: Test Failed due to this exception : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div[id^='ext-conm-cards-type-objectFooter-']"}
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\BALRAJ~1.ULL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60623}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0bc55daa691699cd11da115ea589b648
+*** Element info: {Using=css selector, value=div[id^='ext-conm-cards-type-objectFooter-']}
 	at com.northgateps.cm.platform.api.CustomTestNGCucumberRunner.runCucumber(CustomTestNGCucumberRunner.java:112)
 	at com.northgateps.cm.platform.api.CustomAbstractTestNGCucumberTests.feature(CustomAbstractTestNGCucumberTests.java:25)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -75,28 +91,36 @@
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-Caused by: java.lang.NullPointerException
-	at com.northgateps.cm.platform.api.Utility.closeBrowser(Utility.java:378)
-	at com.northgateps.cm.platform.api.ConnectMobilePageHelper.CloseFailedTest(ConnectMobilePageHelper.java:1776)
+Caused by: java.lang.AssertionError: Test Failed due to this exception : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div[id^='ext-conm-cards-type-objectFooter-']"}
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\BALRAJ~1.ULL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60623}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0bc55daa691699cd11da115ea589b648
+*** Element info: {Using=css selector, value=div[id^='ext-conm-cards-type-objectFooter-']}
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.northgateps.cm.platform.api.ConnectMobilePageHelper.CloseFailedTest(ConnectMobilePageHelper.java:1777)
 	at com.northgateps.cm.intel.WebMobileWrappers.IntelWebPageObject.CloseFailedTest(IntelWebPageObject.java:1534)
 	at com.northgateps.cm.intel.WebMobileWrappers.IntelWebMobileWrapper.CloseFailedTest(IntelWebMobileWrapper.java:399)
-	at com.northgateps.cm.intel.stepDefs.IntelFTS01.userIsOnCardIndexScreenForACreateIntelligenceReport(IntelFTS01.java:26)
-	at ?.Given User is on Card Index screen for a 'Create intelligence report'(resources/Features/SmokeTests/Intel_ST.feature:7)
+	at com.northgateps.cm.intel.stepDefs.IntelFTS01.userHasCompletedAllTheFieldsOnTheCardWithLinkReason(IntelFTS01.java:49)
+	at ?.And User has completed all the fields on the "Incident location" card with Link Reason ""(resources/Features/SmokeTests/Location.feature:14)
 ]]>
             </full-stacktrace>
           </exception> <!-- cucumber.runtime.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.northgateps.cm.testRunner.TestRunner_ST@2758fe70]" name="tearDownClass" is-config="true" duration-ms="450" started-at="2019-07-23T16:14:05Z" finished-at="2019-07-23T16:14:05Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.northgateps.cm.testRunner.TestRunner_ST@3dd4520b]" name="tearDownClass" is-config="true" duration-ms="369" started-at="2019-08-16T15:45:31Z" finished-at="2019-08-16T15:45:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.northgateps.cm.testRunner.TestRunner_ST@2758fe70]" name="generateReport" is-config="true" duration-ms="233" started-at="2019-07-23T16:14:05Z" finished-at="2019-07-23T16:14:06Z">
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.northgateps.cm.testRunner.TestRunner_ST@3dd4520b]" name="generateReport" is-config="true" duration-ms="153" started-at="2019-08-16T15:45:32Z" finished-at="2019-08-16T15:45:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
       </class> <!-- com.northgateps.cm.testRunner.TestRunner_ST -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

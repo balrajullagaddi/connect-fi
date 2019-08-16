@@ -375,8 +375,10 @@ public class Utility {
 	}
 
 	public void closeBrowser(WebDriver driver) {
+	
 		driver.close();
 		driver.quit();
+		
 	}
 
 	public void Select_Button(WebDriver driver, String ButtonName) throws InterruptedException {

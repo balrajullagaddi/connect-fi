@@ -1534,3 +1534,628 @@ Session ID: 121da417b32eaa625cc50a3255d28934
 2019-07-23 17:04:58,070 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
 2019-07-23 17:06:28,594 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:75)     - User is on Card Index screen for a 'Create intelligence report'
 2019-07-23 17:06:55,634 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Basic details
+2019-07-24 18:13:00,835 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-07-24 18:13:07,350 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-07-24 18:14:40,482 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:75)     - User is on Card Index screen for a 'Create intelligence report'
+2019-07-24 18:15:18,526 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Basic details
+2019-07-31 12:18:18,854 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-07-31 12:18:30,600 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-07-31 12:20:06,655 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:75)     - User is on Card Index screen for a 'Create intelligence report'
+2019-07-31 12:20:59,619 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Basic details
+2019-07-31 12:25:53,812 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:409)     - User has filled details on 'Basic Details'
+2019-07-31 12:25:58,752 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:414)     - User saved the card - Basic Details
+2019-07-31 12:36:02,818 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Source
+2019-07-31 12:52:07,229 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-07-31 12:52:08,189 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- java.lang.ArrayIndexOutOfBoundsException: -1
+2019-07-31 13:42:45,145 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create Intelligence record with all the static object linked
+2019-07-31 13:42:51,457 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-07-31 13:46:22,492 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:75)     - User is on Card Index screen for a 'Create intelligence report'
+2019-08-12 15:34:51,597 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-12 15:34:52,048 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-12 15:37:32,850 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:75)     - User is on Card Index screen for a 'Create intelligence report'
+2019-08-12 15:37:38,158 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Basic details
+2019-08-12 15:38:21,344 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:409)     - User has filled details on 'Basic Details'
+2019-08-12 15:38:21,832 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:414)     - User saved the card - Basic Details
+2019-08-12 15:38:26,542 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Source
+2019-08-12 15:38:34,362 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:470)     - User has filled form Source details on Sourcecard
+2019-08-12 15:38:34,797 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:414)     - User saved the card - Source
+2019-08-12 15:38:45,003 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Submission
+2019-08-12 15:38:52,281 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:470)     - User has filled form Submission on Submissioncard
+2019-08-12 15:39:01,824 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:470)     - User has filled form Provenance on Submissioncard
+2019-08-12 15:39:06,456 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:470)     - User has filled form Risk factors on Submissioncard
+2019-08-12 15:39:07,006 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:414)     - User saved the card - Submission
+2019-08-12 15:39:36,296 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:543)     - User sets the cards as 'Not Applicable'
+2019-08-12 15:39:36,454 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:585)     - Card 'Basic details' has expected status as 'Complete'.
+2019-08-12 15:39:36,664 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:585)     - Card 'Source' has expected status as 'Complete'.
+2019-08-12 15:39:37,081 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:585)     - Card 'Submission' has expected status as 'Complete'.
+2019-08-12 15:39:37,336 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:585)     - Card 'Person (Subject of)' has expected status as 'Not Applicable'.
+2019-08-12 15:39:37,687 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:585)     - Card 'Location (Subject of)' has expected status as 'Not Applicable'.
+2019-08-12 15:39:38,017 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:585)     - Card 'Vehicle (Subject of)' has expected status as 'Not Applicable'.
+2019-08-12 15:39:38,448 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:585)     - Card 'Organisation (Subject of)' has expected status as 'Not Applicable'.
+2019-08-12 15:39:43,386 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:601)     - User has submitted 'Create intelligence report' card and the reference is - 20/244660/19
+2019-08-12 15:40:56,783 ERROR [main] api.Utility       ( Utility.java:610)     - Error while processing request in waitForElementToBe org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : }
+  (Session info: chrome=76.0.3809.100): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\BALRAJ~1.ULL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58944}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2ffb9f4d5b0117290c8ddd7586a14bf0
+*** Element info: {Using=css selector, value=div[id^='tasksByObjectTabs-'] div[id^='tasksByObjectTabs-'] div.x-tab-bar a}
+2019-08-12 15:40:56,784 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-12 15:40:57,343 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- java.lang.NullPointerException
+2019-08-12 15:40:58,410 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create Intelligence record with all the static object linked
+2019-08-12 15:40:58,522 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-12 15:41:01,996 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:646)     - Unable to Open Browserorg.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\BALRAJ~1.ULL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59022}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4b6ba1841e801877dd623ab26793683f
+2019-08-12 16:56:51,840 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-12 16:56:52,085 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-12 17:13:54,864 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-12 17:13:55,085 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-12 18:07:16,068 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-12 18:07:16,330 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-12 18:11:27,828 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-12 18:11:28,060 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-12 18:14:34,265 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-12 18:14:34,530 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-12 18:17:43,988 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:75)     - User is on Card Index screen for a 'Create intelligence report'
+2019-08-12 18:17:47,471 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Basic details
+2019-08-12 18:18:04,645 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-12 18:18:04,652 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-12 18:18:04,720 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create Intelligence record with all the static object linked
+2019-08-12 18:18:04,856 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-13 16:35:17,501 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-13 16:35:17,884 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-13 16:38:01,150 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-13 16:38:01,305 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-13 16:38:01,370 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create Intelligence record with all the static object linked
+2019-08-13 16:38:01,729 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-13 16:38:04,905 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:646)     - Unable to Open Browserorg.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\BALRAJ~1.ULL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:56366}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5419f33ccf41cc99de4302448ebdc43c
+2019-08-13 16:38:54,680 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-13 16:38:54,925 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-13 16:38:55,752 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-13 16:38:55,755 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-13 16:38:55,814 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create Intelligence record with all the static object linked
+2019-08-13 16:38:55,913 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-13 16:38:56,248 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-13 16:38:56,248 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-13 16:38:56,279 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intel and perform task 'Assess Intelligence Report' so that report can be Returned for deletion
+2019-08-13 16:38:56,358 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-13 16:38:56,651 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-13 16:38:56,651 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-13 16:40:11,169 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-13 16:40:11,444 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-13 16:42:21,051 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-13 16:42:21,318 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-13 16:45:55,036 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-13 16:45:55,287 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-13 16:47:30,653 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-13 16:47:30,916 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-13 16:55:18,972 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-13 16:55:19,219 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-13 16:58:19,958 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:75)     - User is on Card Index screen for a 'Create intelligence report'
+2019-08-13 16:58:23,565 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Basic details
+2019-08-13 16:58:33,827 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-13 16:58:33,834 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-13 16:58:33,912 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create Intelligence record with all the static object linked
+2019-08-13 16:58:33,996 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-13 16:58:37,180 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:646)     - Unable to Open Browserorg.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\BALRAJ~1.ULL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:56714}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5b824ac9cf23fef0529f84403bd5a68c
+2019-08-13 16:58:43,206 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:221)     - Unable to Loginorg.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\BALRAJ~1.ULL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:56714}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5b824ac9cf23fef0529f84403bd5a68c
+*** Element info: {Using=name, value=username}
+2019-08-13 16:58:49,239 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:261)     - Unable to select event rolesorg.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\BALRAJ~1.ULL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:56714}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5b824ac9cf23fef0529f84403bd5a68c
+*** Element info: {Using=xpath, value=//input[@type='checkbox'][@value='IntelProfessional']}
+2019-08-13 16:58:55,269 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-13 17:00:24,423 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-13 17:00:24,691 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-13 17:01:43,025 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-13 17:01:43,286 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-13 17:02:58,112 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-13 17:02:58,360 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-13 17:05:08,503 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-13 17:05:08,738 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-13 17:06:21,536 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-13 17:06:21,797 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-13 17:08:15,187 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-13 17:08:15,446 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-13 17:09:16,003 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-13 17:09:16,228 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-13 17:14:59,178 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-13 17:14:59,410 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-13 17:16:32,966 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-13 17:16:33,202 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-13 17:18:01,211 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-13 17:18:01,457 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-13 17:19:25,102 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-13 17:19:25,351 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-13 17:21:07,580 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:75)     - User is on Card Index screen for a 'Create intelligence report'
+2019-08-13 17:21:11,105 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Basic details
+2019-08-13 17:21:51,618 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:409)     - User has filled details on 'Basic Details'
+2019-08-13 17:21:51,896 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:414)     - User saved the card - Basic Details
+2019-08-13 17:21:56,270 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Source
+2019-08-13 17:22:02,673 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:470)     - User has filled form Source details on Sourcecard
+2019-08-13 17:22:02,943 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:414)     - User saved the card - Source
+2019-08-13 17:22:11,635 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Submission
+2019-08-13 17:22:17,535 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:470)     - User has filled form Submission on Submissioncard
+2019-08-13 17:22:25,692 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:470)     - User has filled form Provenance on Submissioncard
+2019-08-13 17:22:29,471 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:470)     - User has filled form Risk factors on Submissioncard
+2019-08-13 17:22:29,752 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:414)     - User saved the card - Submission
+2019-08-13 17:22:53,122 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:543)     - User sets the cards as 'Not Applicable'
+2019-08-13 17:22:53,236 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:585)     - Card 'Basic details' has expected status as 'Complete'.
+2019-08-13 17:22:53,387 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:585)     - Card 'Source' has expected status as 'Complete'.
+2019-08-13 17:22:53,708 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:585)     - Card 'Submission' has expected status as 'Complete'.
+2019-08-13 17:22:53,898 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:585)     - Card 'Person (Subject of)' has expected status as 'Not Applicable'.
+2019-08-13 17:22:54,108 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:585)     - Card 'Location (Subject of)' has expected status as 'Not Applicable'.
+2019-08-13 17:22:54,350 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:585)     - Card 'Vehicle (Subject of)' has expected status as 'Not Applicable'.
+2019-08-13 17:22:54,606 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:585)     - Card 'Organisation (Subject of)' has expected status as 'Not Applicable'.
+2019-08-13 17:22:59,209 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:601)     - User has submitted 'Create intelligence report' card and the reference is - 20/247648/19
+2019-08-13 17:23:51,105 ERROR [main] api.Utility       ( Utility.java:497)     - Error while processing request in waitForElementToBe org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : }
+  (Session info: chrome=76.0.3809.100): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\BALRAJ~1.ULL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57347}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2d28e1617a21f1f33a73bea0761de929
+*** Element info: {Using=xpath, value=//div[@id='chart-overlay']//canvas}
+2019-08-13 17:23:51,167 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-13 17:23:51,566 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- java.lang.NullPointerException
+2019-08-13 17:23:52,602 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create Intelligence record with all the static object linked
+2019-08-13 17:23:52,671 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-13 17:24:16,990 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:261)     - Unable to select event rolesorg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\BALRAJ~1.ULL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57458}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0a4c5d6f007dff324874f085f4fcf05b
+*** Element info: {Using=tag name, value=button}
+2019-08-13 17:24:17,006 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-13 17:24:17,006 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-13 17:24:17,006 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\BALRAJ~1.ULL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57458}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0a4c5d6f007dff324874f085f4fcf05b
+2019-08-13 17:24:19,081 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intel and perform task 'Assess Intelligence Report' so that report can be Returned for deletion
+2019-08-13 17:24:19,141 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-13 17:25:13,412 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-13 17:25:13,646 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-13 17:28:18,616 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-13 17:28:18,911 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-13 17:31:14,188 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:75)     - User is on Card Index screen for a 'Create intelligence report'
+2019-08-13 17:31:17,635 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Basic details
+2019-08-13 17:31:57,967 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:409)     - User has filled details on 'Basic Details'
+2019-08-13 17:31:58,257 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:414)     - User saved the card - Basic Details
+2019-08-13 17:32:02,616 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Source
+2019-08-13 17:32:09,066 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:470)     - User has filled form Source details on Sourcecard
+2019-08-13 17:32:09,334 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:414)     - User saved the card - Source
+2019-08-13 17:32:17,976 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Submission
+2019-08-13 17:32:23,921 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:470)     - User has filled form Submission on Submissioncard
+2019-08-13 17:32:32,065 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:470)     - User has filled form Provenance on Submissioncard
+2019-08-13 17:32:35,863 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:470)     - User has filled form Risk factors on Submissioncard
+2019-08-13 17:32:36,150 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:414)     - User saved the card - Submission
+2019-08-13 17:32:59,317 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:543)     - User sets the cards as 'Not Applicable'
+2019-08-13 17:32:59,432 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:585)     - Card 'Basic details' has expected status as 'Complete'.
+2019-08-13 17:32:59,563 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:585)     - Card 'Source' has expected status as 'Complete'.
+2019-08-13 17:32:59,868 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:585)     - Card 'Submission' has expected status as 'Complete'.
+2019-08-13 17:33:00,045 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:585)     - Card 'Person (Subject of)' has expected status as 'Not Applicable'.
+2019-08-13 17:33:00,252 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:585)     - Card 'Location (Subject of)' has expected status as 'Not Applicable'.
+2019-08-13 17:33:00,493 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:585)     - Card 'Vehicle (Subject of)' has expected status as 'Not Applicable'.
+2019-08-13 17:33:00,801 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:585)     - Card 'Organisation (Subject of)' has expected status as 'Not Applicable'.
+2019-08-13 17:33:05,379 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:601)     - User has submitted 'Create intelligence report' card and the reference is - 20/247695/19
+2019-08-13 17:33:20,802 ERROR [main] api.Utility       ( Utility.java:610)     - Error while processing request in waitForElementToBe org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : }
+  (Session info: chrome=76.0.3809.100): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\BALRAJ~1.ULL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57572}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da71de2e05af9f6a5f14850b0fd14663
+*** Element info: {Using=xpath, value=//div[@class='x-mask-msg-text'][text()='Processing']}
+2019-08-13 17:33:20,807 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-13 17:33:21,167 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- java.lang.AssertionError: Requested page is not loaded expected [true] but found [false]
+2019-08-13 17:33:22,280 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create Intelligence record with all the static object linked
+2019-08-13 17:33:22,359 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-13 17:33:25,255 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:646)     - Unable to Open Browserorg.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\BALRAJ~1.ULL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57640}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f128bc9c62956977d97ce3d076e0b9c6
+2019-08-14 12:36:46,577 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-14 12:36:46,903 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-14 12:39:28,605 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:75)     - User is on Card Index screen for a 'Create intelligence report'
+2019-08-14 12:39:32,973 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Basic details
+2019-08-14 12:40:16,801 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:409)     - User has filled details on 'Basic Details'
+2019-08-14 12:40:17,172 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:414)     - User saved the card - Basic Details
+2019-08-14 12:40:21,928 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Source
+2019-08-14 12:40:29,738 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:470)     - User has filled form Source details on Sourcecard
+2019-08-14 12:40:30,123 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:414)     - User saved the card - Source
+2019-08-14 12:40:40,184 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Submission
+2019-08-14 12:40:47,239 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:470)     - User has filled form Submission on Submissioncard
+2019-08-14 12:40:56,524 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:470)     - User has filled form Provenance on Submissioncard
+2019-08-14 12:41:00,839 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:470)     - User has filled form Risk factors on Submissioncard
+2019-08-14 12:41:01,229 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:414)     - User saved the card - Submission
+2019-08-14 12:41:28,971 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:543)     - User sets the cards as 'Not Applicable'
+2019-08-14 12:41:29,112 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:585)     - Card 'Basic details' has expected status as 'Complete'.
+2019-08-14 12:41:29,335 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:585)     - Card 'Source' has expected status as 'Complete'.
+2019-08-14 12:41:29,791 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:585)     - Card 'Submission' has expected status as 'Complete'.
+2019-08-14 12:41:30,008 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:585)     - Card 'Person (Subject of)' has expected status as 'Not Applicable'.
+2019-08-14 12:41:30,347 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:585)     - Card 'Location (Subject of)' has expected status as 'Not Applicable'.
+2019-08-14 12:41:30,724 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:585)     - Card 'Vehicle (Subject of)' has expected status as 'Not Applicable'.
+2019-08-14 12:41:31,127 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:585)     - Card 'Organisation (Subject of)' has expected status as 'Not Applicable'.
+2019-08-14 12:41:35,966 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:601)     - User has submitted 'Create intelligence report' card and the reference is - 20/250277/19
+2019-08-14 12:44:45,365 ERROR [main] api.Utility       ( Utility.java:610)     - Error while processing request in waitForElementToBe org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : }
+  (Session info: chrome=76.0.3809.100): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\BALRAJ~1.ULL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:49686}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e6a088d0ec758d6e47abc5dc83f7ad7b
+*** Element info: {Using=css selector, value=div[id^='tasksByObjectTabs-'] div[id^='tasksByObjectTabs-'] div.x-tab-bar a}
+2019-08-14 12:44:45,371 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-14 12:44:46,223 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- java.lang.NullPointerException
+2019-08-14 12:44:47,223 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create Intelligence record with all the static object linked
+2019-08-14 12:44:47,311 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-14 12:52:53,548 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-14 12:53:06,894 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-14 12:53:12,164 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-14 12:53:12,175 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-14 12:53:12,181 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- io.github.bonigarcia.wdm.WebDriverManagerException: java.net.UnknownHostException: npm.taobao.org
+2019-08-14 12:53:18,274 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create Intelligence record with all the static object linked
+2019-08-14 12:53:24,056 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-14 12:53:25,972 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-14 12:53:25,974 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-14 12:53:25,974 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- io.github.bonigarcia.wdm.WebDriverManagerException: java.net.UnknownHostException: npm.taobao.org
+2019-08-14 12:53:36,402 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intel and perform task 'Assess Intelligence Report' so that report can be Returned for deletion
+2019-08-14 12:54:05,928 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-14 12:54:11,796 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-14 12:59:52,025 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:75)     - User is on Card Index screen for a 'Create intelligence report'
+2019-08-14 13:09:22,754 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Basic details
+2019-08-14 16:29:56,261 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-14 16:29:56,665 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-14 16:33:14,846 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:75)     - User is on Card Index screen for a 'Create intelligence report'
+2019-08-14 16:33:19,080 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Basic details
+2019-08-14 16:34:02,978 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:409)     - User has filled details on 'Basic Details'
+2019-08-14 16:34:03,430 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:414)     - User saved the card - Basic Details
+2019-08-14 16:34:08,371 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Source
+2019-08-14 16:34:16,075 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:470)     - User has filled form Source details on Sourcecard
+2019-08-14 16:34:16,528 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:414)     - User saved the card - Source
+2019-08-14 16:34:27,337 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Submission
+2019-08-14 16:34:34,381 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:470)     - User has filled form Submission on Submissioncard
+2019-08-14 16:34:42,351 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:470)     - User has filled form Provenance on Submissioncard
+2019-08-14 16:34:46,613 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:470)     - User has filled form Risk factors on Submissioncard
+2019-08-14 16:34:47,161 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:414)     - User saved the card - Submission
+2019-08-14 16:35:16,384 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:543)     - User sets the cards as 'Not Applicable'
+2019-08-14 16:35:16,570 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:585)     - Card 'Basic details' has expected status as 'Complete'.
+2019-08-14 16:35:16,797 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:585)     - Card 'Source' has expected status as 'Complete'.
+2019-08-14 16:35:17,212 ERROR [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:587)     - Card 'Submission' does not have expected status as 'Complete'.
+2019-08-14 16:35:17,213 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-14 16:35:17,639 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- java.lang.AssertionError: Card 'Submission' does not have expected status as 'Complete'. expected [true] but found [false]
+2019-08-14 16:35:20,712 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create Intelligence record with all the static object linked
+2019-08-14 16:35:20,797 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-14 16:35:24,121 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:646)     - Unable to Open Browserorg.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\BALRAJ~1.ULL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:51631}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d62b1ff62c7a56a2dcce78cb9a5535ca
+2019-08-14 16:41:08,367 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-14 16:41:08,660 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-14 16:43:55,728 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:75)     - User is on Card Index screen for a 'Create intelligence report'
+2019-08-14 16:43:59,697 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Basic details
+2019-08-14 16:44:56,737 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-14 16:44:57,407 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- java.lang.AssertionError: expected object to not be null
+2019-08-14 17:27:57,574 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-14 17:27:57,881 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-14 17:31:11,168 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:75)     - User is on Card Index screen for a 'Create intelligence report'
+2019-08-14 17:31:14,633 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Basic details
+2019-08-14 17:31:55,085 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:409)     - User has filled details on 'Basic Details'
+2019-08-14 17:31:55,329 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:414)     - User saved the card - Basic Details
+2019-08-14 17:32:02,080 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Location (Subject of)
+2019-08-14 17:35:32,663 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-14 17:35:32,899 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-14 17:38:48,262 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:75)     - User is on Card Index screen for a 'Create intelligence report'
+2019-08-14 17:38:51,702 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Basic details
+2019-08-14 17:39:32,116 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:409)     - User has filled details on 'Basic Details'
+2019-08-14 17:39:32,390 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:414)     - User saved the card - Basic Details
+2019-08-14 17:39:35,385 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:786)     - ###################### User has logged out from an application ######################
+2019-08-14 17:39:35,898 ERROR [main] api.Utility       ( Utility.java:531)     - Error while processing request in waitForElementToBe org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-08-14 17:39:36,419 ERROR [main] api.Utility       ( Utility.java:531)     - Error while processing request in waitForElementToBe org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-08-14 17:39:36,420 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-14 17:39:36,423 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-14 17:39:36,427 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-08-14 18:04:54,681 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-14 18:04:54,963 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-14 18:08:06,286 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:75)     - User is on Card Index screen for a 'Create intelligence report'
+2019-08-14 18:08:09,828 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Basic details
+2019-08-14 18:08:50,338 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:409)     - User has filled details on 'Basic Details'
+2019-08-14 18:08:50,627 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:414)     - User saved the card - Basic Details
+2019-08-14 18:08:53,651 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:786)     - ###################### User has logged out from an application ######################
+2019-08-14 18:08:54,154 ERROR [main] api.Utility       ( Utility.java:531)     - Error while processing request in waitForElementToBe org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-08-14 18:08:54,664 ERROR [main] api.Utility       ( Utility.java:531)     - Error while processing request in waitForElementToBe org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-08-14 18:08:54,664 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-14 18:08:54,664 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-14 18:08:54,664 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-08-14 18:16:27,297 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:16:27,299 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-14 18:16:27,447 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:16:27,457 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:16:27,466 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:16:27,473 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:16:27,473 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:16:27,482 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:16:27,482 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:16:27,483 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:16:27,494 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:16:27,504 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:16:27,511 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:16:27,521 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:16:27,521 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:16:27,522 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:16:27,523 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:16:27,532 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:16:27,541 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:16:27,542 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:16:27,542 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-14 18:16:27,542 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-14 18:16:27,544 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-14 18:16:27,552 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- java.lang.NullPointerException
+2019-08-14 18:17:11,815 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:17:11,820 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-14 18:17:11,975 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:17:11,983 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:17:11,992 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:17:12,001 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:17:12,001 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:17:12,010 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:17:12,011 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:17:12,011 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:17:12,021 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:17:12,031 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:17:12,040 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:17:12,053 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:17:12,053 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:17:12,054 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:17:12,055 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:17:12,092 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:17:12,104 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:17:12,104 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-14 18:17:12,104 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-14 18:17:12,105 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-14 18:17:12,107 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-14 18:17:12,114 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- java.lang.NullPointerException
+2019-08-14 18:17:51,616 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-14 18:17:51,850 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-14 18:21:45,373 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-14 18:21:45,623 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-14 18:24:40,682 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:75)     - User is on Card Index screen for a 'Create intelligence report'
+2019-08-14 18:24:45,289 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Source
+2019-08-14 18:24:51,418 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:470)     - User has filled form Source details on Sourcecard
+2019-08-14 18:24:51,667 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:414)     - User saved the card - Source
+2019-08-14 18:24:54,650 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:786)     - ###################### User has logged out from an application ######################
+2019-08-14 18:29:32,095 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Source Card for Forensic Investigation
+2019-08-14 18:29:32,376 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-14 18:32:54,831 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:75)     - User is on Card Index screen for a 'Create intelligence report'
+2019-08-14 18:32:59,270 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Source
+2019-08-14 18:33:05,461 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:470)     - User has filled form Source details on Sourcecard
+2019-08-14 18:33:05,739 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:414)     - User saved the card - Source
+2019-08-14 18:33:08,689 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:786)     - ###################### User has logged out from an application ######################
+2019-08-14 18:34:05,641 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-14 18:34:05,891 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-14 18:36:37,442 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:75)     - User is on Card Index screen for a 'Create intelligence report'
+2019-08-14 18:36:40,964 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Basic details
+2019-08-14 18:37:20,873 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:409)     - User has filled details on 'Basic Details'
+2019-08-14 18:37:21,113 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:414)     - User saved the card - Basic Details
+2019-08-14 18:37:24,056 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:786)     - ###################### User has logged out from an application ######################
+2019-08-14 18:37:24,562 ERROR [main] api.Utility       ( Utility.java:532)     - Error while processing request in waitForElementToBe org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-08-14 18:37:25,068 ERROR [main] api.Utility       ( Utility.java:532)     - Error while processing request in waitForElementToBe org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-08-14 18:37:25,070 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-14 18:37:25,073 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-14 18:37:25,079 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-08-14 18:37:25,135 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Source Card for Forensic Investigation
+2019-08-14 18:37:25,209 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-14 18:40:39,413 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:75)     - User is on Card Index screen for a 'Create intelligence report'
+2019-08-14 18:40:43,751 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Source
+2019-08-14 18:40:49,886 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:470)     - User has filled form Source details on Sourcecard
+2019-08-14 18:40:50,166 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:414)     - User saved the card - Source
+2019-08-14 18:40:53,078 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:786)     - ###################### User has logged out from an application ######################
+2019-08-14 18:47:30,208 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-14 18:47:30,489 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-14 18:50:59,349 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:75)     - User is on Card Index screen for a 'Create intelligence report'
+2019-08-14 18:51:02,848 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Basic details
+2019-08-14 18:51:43,304 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:409)     - User has filled details on 'Basic Details'
+2019-08-14 18:51:43,572 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:414)     - User saved the card - Basic Details
+2019-08-14 18:51:46,548 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:786)     - ###################### User has logged out from an application ######################
+2019-08-14 18:51:47,051 ERROR [main] api.Utility       ( Utility.java:534)     - Error while processing request in waitForElementToBe org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-08-14 18:51:47,564 ERROR [main] api.Utility       ( Utility.java:534)     - Error while processing request in waitForElementToBe org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-08-14 18:51:47,564 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-14 18:51:47,564 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-14 18:51:47,579 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-08-14 18:51:47,622 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Source Card for Forensic Investigation
+2019-08-14 18:51:47,695 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-14 18:55:57,445 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked
+2019-08-14 18:55:57,719 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-14 18:59:04,458 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:75)     - User is on Card Index screen for a 'Create intelligence report'
+2019-08-14 18:59:08,443 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Basic details
+2019-08-14 18:59:48,621 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:409)     - User has filled details on 'Basic Details'
+2019-08-14 18:59:48,893 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:414)     - User saved the card - Basic Details
+2019-08-14 18:59:49,818 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:786)     - ###################### User has logged out from an application ######################
+2019-08-14 18:59:50,324 ERROR [main] api.Utility       ( Utility.java:533)     - Error while processing request in waitForElementToBe org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-08-14 18:59:50,832 ERROR [main] api.Utility       ( Utility.java:533)     - Error while processing request in waitForElementToBe org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-08-14 18:59:50,832 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-14 18:59:50,832 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-14 18:59:50,847 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+2019-08-14 18:59:50,922 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Source Card for Forensic Investigation
+2019-08-14 18:59:50,995 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-16 11:52:57,496 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Source Card for Forensic Investigation
+2019-08-16 11:52:57,807 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-16 11:53:32,457 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:261)     - Unable to select event rolesorg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\BALRAJ~1.ULL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57583}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0487d1c473d4c9831eb04ce8311b1853
+*** Element info: {Using=tag name, value=button}
+2019-08-16 11:53:32,462 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-16 11:53:32,466 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-16 11:53:32,472 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\BALRAJ~1.ULL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57583}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0487d1c473d4c9831eb04ce8311b1853
+2019-08-16 11:53:42,945 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Source Card for Forensic Investigation
+2019-08-16 11:53:43,205 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-16 11:56:50,849 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Source Card for Forensic Investigation
+2019-08-16 11:56:51,117 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-16 11:59:48,940 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:75)     - User is on Card Index screen for a 'Create intelligence report'
+2019-08-16 11:59:55,921 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Location (Subject of)
+2019-08-16 12:00:21,898 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-16 12:00:22,227 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\BALRAJ~1.ULL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57786}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d2bc7b56091978da9ee1612ac8e27c57
+2019-08-16 13:54:21,436 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Source Card for Forensic Investigation
+2019-08-16 13:54:21,734 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-16 13:57:21,123 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:75)     - User is on Card Index screen for a 'Create intelligence report'
+2019-08-16 13:57:28,168 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Location (Subject of)
+2019-08-16 13:57:54,290 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-16 13:57:54,592 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\BALRAJ~1.ULL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59135}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 126dc9b1546f7cc84f7fe3f05df5403b
+2019-08-16 14:16:14,259 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Source Card for Forensic Investigation
+2019-08-16 14:16:20,520 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-16 14:19:34,405 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:75)     - User is on Card Index screen for a 'Create intelligence report'
+2019-08-16 14:23:05,929 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - 
+2019-08-16 14:24:24,261 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-16 14:24:24,990 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div[id^='ext-conm-cards-type-objectFooter-']"}
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\BALRAJ~1.ULL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59358}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8cc29ea65cff53ae18eda2616e8899cc
+*** Element info: {Using=css selector, value=div[id^='ext-conm-cards-type-objectFooter-']}
+2019-08-16 15:28:55,891 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Source Card for Forensic Investigation
+2019-08-16 15:28:56,131 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-16 15:31:06,329 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Source Card for Forensic Investigation
+2019-08-16 15:31:06,591 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-16 15:34:24,094 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:75)     - User is on Card Index screen for a 'Create intelligence report'
+2019-08-16 15:34:31,031 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Location (Subject of)
+2019-08-16 15:34:57,011 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-16 15:34:57,346 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\BALRAJ~1.ULL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60529}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: eabf447e00eb39d6c85f719fd74e8a70
+2019-08-16 15:41:51,684 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Source Card for Forensic Investigation
+2019-08-16 15:41:51,931 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-16 15:45:16,331 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:75)     - User is on Card Index screen for a 'Create intelligence report'
+2019-08-16 15:45:16,590 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - 
+2019-08-16 15:45:28,656 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-16 15:45:28,982 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div[id^='ext-conm-cards-type-objectFooter-']"}
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\BALRAJ~1.ULL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60623}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0bc55daa691699cd11da115ea589b648
+*** Element info: {Using=css selector, value=div[id^='ext-conm-cards-type-objectFooter-']}

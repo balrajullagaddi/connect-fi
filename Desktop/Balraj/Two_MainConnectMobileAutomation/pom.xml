@@ -2,8 +2,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>ConnectMobileAutomation</groupId>
-	<artifactId>ConnectMobileAutomation</artifactId>
+	<groupId>MainConnectMobileAutomation</groupId>
+	<artifactId>MainConnectMobileAutomation</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
@@ -37,36 +37,27 @@
 
 	<dependencies>
 
+<!-- Cucumber-JVM   -->
 
-
-		<dependency>
+	<dependency>
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-jvm</artifactId>
 			<version>1.2.5</version>
 			<type>pom</type>
 		</dependency>
 
+<!-- Cucumber Testng Report , cucumber.api.testng.TestNgReporter -->
 
-
-		<dependency>
-
-			<groupId>junit</groupId>
-
-			<artifactId>junit</artifactId>
-
-			<version>4.12</version>
-
-			<scope>test</scope>
-
-		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-testng -->
+<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-testng -->
 		<dependency>
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-testng</artifactId>
 			<version>1.2.5</version>
 		</dependency>
-		<dependency>
+
+	<!--cucumber.api.java.en.And, Given , When, Then  -->
+
+				<dependency>
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-java</artifactId>
 			<version>1.2.5</version>
@@ -79,17 +70,24 @@
 			<artifactId>poi</artifactId>
 			<version>3.15</version>
 		</dependency>
+		
+<!-- log4j =  org.apache.log4j.Logger  -->
+		
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
 			<version>1.2.17</version>
 		</dependency>
 
+<!-- dom4j: the flexible XML framework for Java ... Categories, XML Processing. Tags, domxml.   -->
+
 		<dependency>
 			<groupId>dom4j</groupId>
 			<artifactId>dom4j</artifactId>
 			<version>1.6.1</version>
 		</dependency>
+		
+		
 
 		<dependency>
 			<groupId>xml-apis</groupId>
@@ -102,27 +100,28 @@
 			<artifactId>org.json.simple</artifactId>
 			<version>0.4</version>
 		</dependency>
+		
+		
 		<dependency>
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-core</artifactId>
 			<version>1.2.5</version>
 		</dependency>
+		
+		
 		<dependency>
 			<groupId>org.apache.maven</groupId>
 			<artifactId>maven-project</artifactId>
 			<version>2.2.1</version>
 		</dependency>
+		
 		<dependency>
 			<groupId>org.apache.maven</groupId>
 			<artifactId>maven-model</artifactId>
 			<version>3.5.0</version>
 		</dependency>
 
-		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-simple</artifactId>
-			<version>1.7.7</version>
-		</dependency>
+		
 
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -130,115 +129,63 @@
 			<version>3.141.59</version>
 		</dependency>
 
-		<dependency>
+<!--Testng assert  -->
+
+     <dependency>
 			<groupId>org.assertj</groupId>
 			<artifactId>assertj-core</artifactId>
 			<version>1.7.0</version>
 		</dependency>
-
-		<dependency>
-			<groupId>com.opencsv</groupId>
-			<artifactId>opencsv</artifactId>
-			<version>3.3</version>
-		</dependency>
-
-		<dependency>
+		
+<!--WebDriverManager;  -->		
+		
+<dependency>
 			<groupId>io.github.bonigarcia</groupId>
 			<artifactId>webdrivermanager</artifactId>
 			<version>3.3.0</version>
 		</dependency>
+		
+<!--Extent report  -->
+		
 		<dependency>
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>
 			<version>3.1.2</version>
 		</dependency>
-		<dependency>
-			<groupId>org.seleniumhq.selenium</groupId>
-			<artifactId>selenium-remote-driver</artifactId>
-			<version>3.141.59</version>
-		</dependency>
+
+<!--Cucumber report  -->		
 		<dependency>
 			<groupId>com.github.mkolisnyk</groupId>
 			<artifactId>cucumber-reports</artifactId>
 			<version>1.0.7</version>
 		</dependency>
+		
+		
 		<dependency>
 			<groupId>com.vimalselvam</groupId>
 			<artifactId>cucumber-extentsreport</artifactId>
 			<version>3.1.0</version>
 		</dependency>
-		<dependency>
-			<groupId>com.google.android</groupId>
-			<artifactId>android</artifactId>
-			<version>1.6_r2</version>
-		</dependency>
+			
 
-		<dependency>
-			<groupId>net.bytebuddy</groupId>
-			<artifactId>byte-buddy</artifactId>
-			<version>1.8.15</version>
-		</dependency>
+<!--Java  -->
 
-		<dependency>
-			<groupId>org.apache.commons</groupId>
-			<artifactId>commons-exec</artifactId>
-			<version>1.3</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.commons</groupId>
-			<artifactId>commons-lang3</artifactId>
-			<version>3.7</version>
-		</dependency>
-
-		<dependency>
-			<groupId>com.google.guava</groupId>
-			<artifactId>guava</artifactId>
-			<version>25.0-jre</version>
-		</dependency>
-		<dependency>
-			<groupId>org.hamcrest</groupId>
-			<artifactId>hamcrest-core</artifactId>
-			<version>1.3</version>
-		</dependency>
 		<dependency>
 			<groupId>io.appium</groupId>
 			<artifactId>java-client</artifactId>
 			<version>7.0.0</version>
 		</dependency>
-
-		<dependency>
-			<groupId>com.squareup.okhttp3</groupId>
-			<artifactId>okhttp</artifactId>
-			<version>3.11.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.squareup.okio</groupId>
-			<artifactId>okio</artifactId>
-			<version>1.14.0</version>
-		</dependency>
-		<dependency>
-			<groupId>xerces</groupId>
-			<artifactId>xercesImpl</artifactId>
-			<version>2.12.0</version>
-		</dependency>
-		<dependency>
-			<groupId>commons-io</groupId>
-			<artifactId>commons-io</artifactId>
-			<version>2.6</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-beans</artifactId>
-			<version>4.3.6.RELEASE</version>
-		</dependency>
-
-
+				
+		<!-- For reading the excel file -->
+		
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml</artifactId>
 			<version>3.15</version>
 		</dependency>
+		
+		<!--Testng anotation  -->
+		
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>

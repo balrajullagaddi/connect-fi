@@ -10,7 +10,7 @@ package com.northgateps.cm.platform.api;
 import com.northgateps.cm.platform.api.CardEnum.By;
 import com.northgateps.cm.platform.api.CardEnum.ControlType;
 
-import android.util.Log;
+//import android.util.Log;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
