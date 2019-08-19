@@ -1,8 +1,11 @@
 package com.northgateps.cm.intel.stepDefs;
 
 import com.northgateps.cm.intel.WebMobileWrappers.IntelWebMobileWrapper;
+import com.northgateps.cm.investigation.WebMobileWrappers.InvWebMobileWrapper;
 
 import cucumber.api.DataTable;
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -12,26 +15,18 @@ public class IntelFTS01 {
 	private String LogFilePath = "target/EaG_Log";
 	private String TestName = "Intel_FTS";
 	private IntelWebMobileWrapper intelWebMobileWrapper;
+	
+	
 
 	public IntelFTS01() throws Exception {
 		System.out.println(this.getClass().getName() + " is running..");
 		intelWebMobileWrapper = new IntelWebMobileWrapper();
+		
 	}
 
-	//Location 
+	@Before
 	
-	@Given("^User is on Card Index screen for a 'Create Generic Investigation'$")
-	public void userIsOnCardIndexScreenForACreateGenericInvestigation() throws Throwable {
-		try {
-			invWebMobileWrapper.userIsOnCardIndexScreenForACreateGenericInvestigation();
-		} catch (Exception e) {
-			intelWebMobileWrapper.CloseFailedTest(LogFilePath, LogFilePath, "", TestName, e);
-		}catch (AssertionError e) {
-			intelWebMobileWrapper.CloseFailedTest(LogFilePath, LogFilePath, "", TestName, e.fillInStackTrace());
-
-		}
-
-	}
+	
 	
 	@Given("^User is on Card Index screen for a 'Create intelligence report'$")
 	public void userIsOnCardIndexScreenForACreateIntelligenceReport() throws Exception {
@@ -43,6 +38,20 @@ public class IntelFTS01 {
 			intelWebMobileWrapper.CloseFailedTest(LogFilePath, LogFilePath, "", TestName, e.fillInStackTrace());
 		}
 	}
+	
+	@After
+	
+	@Then("^Logout from an application and close the browser$")
+	public void LogoutFromAnApplicationAndCloseTheBrowser() throws Exception {
+	try {
+		intelWebMobileWrapper.LogoutFromAnApplicationAndCloseTheBrowser();
+	} catch (Exception e) {
+		intelWebMobileWrapper.CloseFailedTest(LogFilePath, LogFilePath, "", TestName, e);
+	} catch (AssertionError e) {
+		intelWebMobileWrapper.CloseFailedTest(LogFilePath, LogFilePath, "", TestName, e.fillInStackTrace());
+	}
+}
+	
 
 	@When("^User clicks on \"(.*?)\" card with Link Reason \"(.*?)\"$")
 	public void userClicksOnCardWithLinkReason(String cardName, String LinkReason) throws Exception {
@@ -282,17 +291,17 @@ public class IntelFTS01 {
 			intelWebMobileWrapper.CloseFailedTest(LogFilePath, LogFilePath, "", TestName, e.fillInStackTrace());
 		}
 	}
-
-	@Then("^Logout from an application and close the browser$")
-	public void LogoutFromAnApplicationAndCloseTheBrowser() throws Exception {
-		try {
-			intelWebMobileWrapper.LogoutFromAnApplicationAndCloseTheBrowser();
-		} catch (Exception e) {
-			intelWebMobileWrapper.CloseFailedTest(LogFilePath, LogFilePath, "", TestName, e);
-		} catch (AssertionError e) {
-			intelWebMobileWrapper.CloseFailedTest(LogFilePath, LogFilePath, "", TestName, e.fillInStackTrace());
-		}
-	}
+//Logout
+//	@Then("^Logout from an application and close the browser$")
+	//		public void LogoutFromAnApplicationAndCloseTheBrowser() throws Exception {
+	//try {
+	//	intelWebMobileWrapper.LogoutFromAnApplicationAndCloseTheBrowser();
+	//} catch (Exception e) {
+	//	intelWebMobileWrapper.CloseFailedTest(LogFilePath, LogFilePath, "", TestName, e);
+	//} catch (AssertionError e) {
+	//	intelWebMobileWrapper.CloseFailedTest(LogFilePath, LogFilePath, "", TestName, e.fillInStackTrace());
+	//}
+	//}
 
 	@When("^User read the test data sheet \"(.*?)\" from file \"(.*?)\"$")
 	public void userReadTheTestDataSheetFromFile(String sheetName, String fileName) throws Throwable {

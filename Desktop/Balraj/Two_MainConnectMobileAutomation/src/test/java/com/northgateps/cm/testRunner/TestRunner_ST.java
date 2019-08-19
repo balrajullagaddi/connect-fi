@@ -27,6 +27,9 @@ import cucumber.api.SnippetType;
 						 //"resources/Features/SmokeTests/Intel_ST.feature",
 						 //"resources/Features/SmokeTests/Source.feature",
 						 "resources/Features/SmokeTests/Location.feature",
+						//"resources/Features/SmokeTests/Incident_Location.feature",
+						 //"resources/Features/SmokeTests/Vehicle.feature",
+						 //"resources/Features/SmokeTests/Person.feature",
 							}
 				)
 

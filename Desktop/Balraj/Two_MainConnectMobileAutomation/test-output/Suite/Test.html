@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Aug 16 15:41:50 IST 2019</td>
+<td>Started on:</td><td>Mon Aug 19 10:19:07 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>221 seconds (221724 ms)</td>
+<tr><td>Total time:</td><td>222 seconds (222030 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,93 +67,17 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.northgateps.cm.testRunner.TestRunner_ST.feature()'><b>feature</b><br>Test class: com.northgateps.cm.testRunner.TestRunner_ST<br>Test method: Runs Cucumber Feature<br>Parameters: Forensic Investigation Unit test for Source</td>
-<td><div><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: Test Failed due to this exception : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;div[id^=&apos;ext-conm-cards-type-objectFooter-&apos;]&quot;}
-  (Session info: chrome=76.0.3809.100)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;MUM-LAP-849&apos;, ip: &apos;10.102.193.114&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\BALRAJ~1.ULL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60623}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0bc55daa691699cd11da115ea589b648
-*** Element info: {Using=css selector, value=div[id^=&apos;ext-conm-cards-type-objectFooter-&apos;]}
-	at com.northgateps.cm.platform.api.CustomTestNGCucumberRunner.runCucumber(CustomTestNGCucumberRunner.java:112)
-	at com.northgateps.cm.platform.api.CustomAbstractTestNGCucumberTests.feature(CustomAbstractTestNGCucumberTests.java:25)
-Caused by: java.lang.AssertionError: Test Failed due to this exception : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;div[id^=&apos;ext-conm-cards-type-objectFooter-&apos;]&quot;}
-  (Session info: chrome=76.0.3809.100)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;MUM-LAP-849&apos;, ip: &apos;10.102.193.114&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\BALRAJ~1.ULL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60623}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0bc55daa691699cd11da115ea589b648
-*** Element info: {Using=css selector, value=div[id^=&apos;ext-conm-cards-type-objectFooter-&apos;]}
-	at com.northgateps.cm.platform.api.ConnectMobilePageHelper.CloseFailedTest(ConnectMobilePageHelper.java:1777)
-	at com.northgateps.cm.intel.WebMobileWrappers.IntelWebPageObject.CloseFailedTest(IntelWebPageObject.java:1534)
-	at com.northgateps.cm.intel.WebMobileWrappers.IntelWebMobileWrapper.CloseFailedTest(IntelWebMobileWrapper.java:399)
-	at com.northgateps.cm.intel.stepDefs.IntelFTS01.userHasCompletedAllTheFieldsOnTheCardWithLinkReason(IntelFTS01.java:49)
-	at ?.And User has completed all the fields on the &quot;Incident location&quot; card with Link Reason &quot;&quot;(resources/Features/SmokeTests/Location.feature:14)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1204030294", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1204030294'><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: Test Failed due to this exception : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;div[id^=&apos;ext-conm-cards-type-objectFooter-&apos;]&quot;}
-  (Session info: chrome=76.0.3809.100)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;MUM-LAP-849&apos;, ip: &apos;10.102.193.114&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\BALRAJ~1.ULL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60623}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0bc55daa691699cd11da115ea589b648
-*** Element info: {Using=css selector, value=div[id^=&apos;ext-conm-cards-type-objectFooter-&apos;]}
-	at com.northgateps.cm.platform.api.CustomTestNGCucumberRunner.runCucumber(CustomTestNGCucumberRunner.java:112)
-	at com.northgateps.cm.platform.api.CustomAbstractTestNGCucumberTests.feature(CustomAbstractTestNGCucumberTests.java:25)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-Caused by: java.lang.AssertionError: Test Failed due to this exception : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;div[id^=&apos;ext-conm-cards-type-objectFooter-&apos;]&quot;}
-  (Session info: chrome=76.0.3809.100)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;MUM-LAP-849&apos;, ip: &apos;10.102.193.114&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\BALRAJ~1.ULL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60623}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0bc55daa691699cd11da115ea589b648
-*** Element info: {Using=css selector, value=div[id^=&apos;ext-conm-cards-type-objectFooter-&apos;]}
-	at org.testng.Assert.fail(Assert.java:94)
-	at com.northgateps.cm.platform.api.ConnectMobilePageHelper.CloseFailedTest(ConnectMobilePageHelper.java:1777)
-	at com.northgateps.cm.intel.WebMobileWrappers.IntelWebPageObject.CloseFailedTest(IntelWebPageObject.java:1534)
-	at com.northgateps.cm.intel.WebMobileWrappers.IntelWebMobileWrapper.CloseFailedTest(IntelWebMobileWrapper.java:399)
-	at com.northgateps.cm.intel.stepDefs.IntelFTS01.userHasCompletedAllTheFieldsOnTheCardWithLinkReason(IntelFTS01.java:49)
-	at ?.And User has completed all the fields on the &quot;Incident location&quot; card with Link Reason &quot;&quot;(resources/Features/SmokeTests/Location.feature:14)
-</pre></div></td>
-<td>220</td>
+<td title='com.northgateps.cm.testRunner.TestRunner_ST.feature()'><b>feature</b><br>Test class: com.northgateps.cm.testRunner.TestRunner_ST<br>Test method: Runs Cucumber Feature<br>Parameters: Forensic Investigation Unit test for Location</td>
+<td></td>
+<td>221</td>
 <td>com.northgateps.cm.testRunner.TestRunner_ST@3dd4520b</td></tr>
 </table><p>
 </body>

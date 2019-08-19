@@ -2159,3 +2159,198 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\BALRAJ~1.ULL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60623}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
 Session ID: 0bc55daa691699cd11da115ea589b648
 *** Element info: {Using=css selector, value=div[id^='ext-conm-cards-type-objectFooter-']}
+2019-08-16 17:13:20,015 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Source Card for Forensic Investigation
+2019-08-16 17:13:20,261 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-16 17:13:20,261 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-16 17:13:20,276 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- java.lang.NullPointerException
+2019-08-16 17:14:03,755 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Source Card for Forensic Investigation
+2019-08-16 17:14:04,005 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-16 17:14:04,005 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-16 17:14:04,005 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- java.lang.NullPointerException
+2019-08-16 17:14:53,849 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Source Card for Forensic Investigation
+2019-08-16 17:14:54,115 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-16 17:14:54,118 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-16 17:14:54,126 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- java.lang.NullPointerException
+2019-08-16 17:15:39,657 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Source Card for Forensic Investigation
+2019-08-16 17:15:39,979 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-16 17:15:39,979 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-16 17:15:39,979 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- java.lang.NullPointerException
+2019-08-16 17:16:07,638 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Source Card for Forensic Investigation
+2019-08-16 17:16:07,901 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-16 17:16:07,901 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-16 17:16:07,916 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- java.lang.NullPointerException
+2019-08-16 17:17:53,663 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Source Card for Forensic Investigation
+2019-08-16 17:17:53,896 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-16 17:17:53,896 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-16 17:17:53,912 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- java.lang.NullPointerException
+2019-08-16 17:19:40,551 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Source Card for Forensic Investigation
+2019-08-16 17:19:40,790 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-16 17:20:12,024 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:261)     - Unable to select event rolesorg.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\BALRAJ~1.ULL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ce2dd6ddec07572ebb05c9558fb950c9
+*** Element info: {Using=tag name, value=button}
+2019-08-16 17:20:36,039 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Source Card for Forensic Investigation
+2019-08-16 17:20:36,282 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-16 17:20:36,282 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-16 17:20:36,297 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- java.lang.NullPointerException
+2019-08-16 17:20:49,778 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Source Card for Forensic Investigation
+2019-08-16 17:20:50,088 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-16 17:20:50,091 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-16 17:20:50,098 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- java.lang.NullPointerException
+2019-08-16 17:22:13,856 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Source Card for Forensic Investigation
+2019-08-16 17:22:14,156 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-16 17:22:14,172 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-16 17:22:14,172 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- java.lang.NullPointerException
+2019-08-16 17:26:55,970 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Source Card for Forensic Investigation
+2019-08-16 17:26:56,246 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-16 17:26:56,262 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-16 17:26:56,278 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- java.lang.NullPointerException
+2019-08-16 17:28:06,745 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Source Card for Forensic Investigation
+2019-08-16 17:28:06,981 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-16 17:28:06,981 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-16 17:28:06,997 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- java.lang.NullPointerException
+2019-08-16 17:28:44,179 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Source Card for Forensic Investigation
+2019-08-16 17:28:44,400 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-16 17:28:44,416 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-16 17:30:55,862 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Source Card for Forensic Investigation
+2019-08-16 17:30:56,151 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-16 17:30:56,151 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-16 17:38:44,528 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Source Card for Forensic Investigation
+2019-08-16 17:38:44,832 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-16 17:38:44,832 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-16 17:49:33,623 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Source Card for Forensic Investigation
+2019-08-16 17:49:33,853 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-16 17:49:33,853 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-16 17:50:23,790 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Source Card for Forensic Investigation
+2019-08-16 17:50:24,027 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-16 17:50:24,027 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-16 17:52:17,124 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Source Card for Forensic Investigation
+2019-08-16 17:52:17,373 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-16 17:52:17,373 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-16 17:52:17,389 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- java.lang.NullPointerException
+2019-08-16 17:55:25,323 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Source Card for Forensic Investigation
+2019-08-16 17:55:25,543 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-16 17:58:44,726 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:75)     - User is on Card Index screen for a 'Create intelligence report'
+2019-08-16 17:58:51,813 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Location (Subject of)
+2019-08-16 17:59:17,860 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-16 17:59:18,160 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\BALRAJ~1.ULL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f4895da62b171e3bdb8d137749b19f1d
+2019-08-16 18:00:50,198 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Source Card for Forensic Investigation
+2019-08-16 18:00:50,422 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-16 18:04:00,137 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:75)     - User is on Card Index screen for a 'Create intelligence report'
+2019-08-16 18:04:06,991 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Location (Subject of)
+2019-08-16 18:04:32,989 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-16 18:04:33,296 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\BALRAJ~1.ULL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61879}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7d6d2a8487df30863f0af769b1d3db31
+2019-08-16 18:10:39,110 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create Create Generic Investigation with all static objects linked and take it to Requires Assessment or Review status
+2019-08-16 18:10:39,399 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-16 18:10:39,399 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-16 18:10:39,399 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- java.lang.NullPointerException
+2019-08-16 18:11:23,388 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create Create Generic Investigation with all static objects linked and take it to Requires Assessment or Review status
+2019-08-16 18:11:23,684 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-16 18:11:23,684 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-16 18:11:23,684 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- java.lang.NullPointerException
+2019-08-16 18:12:11,102 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create Create Generic Investigation with all static objects linked and take it to Requires Assessment or Review status
+2019-08-16 18:12:11,325 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-16 18:12:11,325 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-16 18:12:11,341 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- java.lang.NullPointerException
+2019-08-16 18:17:59,179 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create Create Generic Investigation with all static objects linked and take it to Requires Assessment or Review status
+2019-08-16 18:17:59,538 INFO  [main] WebMobileWrappers.InvWebPageObject (InvWebPageObject.java:50)     - ###################### Test started. ######################
+2019-08-16 18:21:45,916 INFO  [main] WebMobileWrappers.InvWebPageObject (InvWebPageObject.java:59)     - User is on Card Index screen for a 'Create generic investigation'
+2019-08-16 18:21:47,172 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-16 18:21:47,439 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- java.lang.AssertionError: expected object to not be null
+2019-08-16 18:22:34,888 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create Create Generic Investigation with all static objects linked and take it to Requires Assessment or Review status
+2019-08-16 18:22:35,177 INFO  [main] WebMobileWrappers.InvWebPageObject (InvWebPageObject.java:50)     - ###################### Test started. ######################
+2019-08-16 18:26:11,522 INFO  [main] WebMobileWrappers.InvWebPageObject (InvWebPageObject.java:59)     - User is on Card Index screen for a 'Create generic investigation'
+2019-08-16 18:26:12,277 ERROR [main] api.Utility       ( Utility.java:536)     - Error while processing request in waitForElementToBe java.lang.NullPointerException
+2019-08-16 18:26:12,278 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-16 18:26:12,617 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- java.lang.NullPointerException
+2019-08-16 18:33:57,464 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create Create Generic Investigation with all static objects linked and take it to Requires Assessment or Review status
+2019-08-16 18:33:57,834 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-16 18:38:05,355 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-16 18:38:05,716 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : }
+  (Session info: chrome=76.0.3809.100): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\BALRAJ~1.ULL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:62214}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8ce52d84d0b932250b2f0899ff0622df
+*** Element info: {Using=xpath, value=//div[@class='x-loading-spinner-outer']}
+2019-08-16 19:13:49,056 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create Create Generic Investigation with all static objects linked and take it to Requires Assessment or Review status
+2019-08-16 19:13:49,351 INFO  [main] WebMobileWrappers.InvWebPageObject (InvWebPageObject.java:50)     - ###################### Test started. ######################
+2019-08-16 19:17:36,099 INFO  [main] WebMobileWrappers.InvWebPageObject (InvWebPageObject.java:59)     - User is on Card Index screen for a 'Create generic investigation'
+2019-08-16 19:17:36,834 ERROR [main] api.Utility       ( Utility.java:536)     - Error while processing request in waitForElementToBe java.lang.NullPointerException
+2019-08-16 19:17:36,834 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-16 19:17:37,136 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- java.lang.NullPointerException
+2019-08-19 09:38:44,640 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Location Card for Forensic Investigation
+2019-08-19 09:38:44,949 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-19 09:42:14,597 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:75)     - User is on Card Index screen for a 'Create intelligence report'
+2019-08-19 09:42:21,664 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Location (Subject of)
+2019-08-19 09:42:39,688 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:786)     - ###################### User has logged out from an application ######################
+2019-08-19 09:49:19,189 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-19 09:49:19,194 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Vehicle Card for Forensic Investigation
+2019-08-19 09:49:19,344 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-19 09:49:19,353 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-19 09:49:19,364 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-19 09:49:19,373 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-19 09:49:19,374 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-19 09:49:19,386 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-19 09:49:19,386 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-19 09:49:19,387 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-19 09:49:19,397 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-19 09:49:19,408 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-19 09:49:19,415 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-19 09:49:19,424 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-19 09:49:19,424 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-19 09:49:19,425 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-19 09:49:19,426 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-19 09:49:19,435 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-19 09:49:19,445 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-19 09:49:19,445 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-19 09:49:19,457 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-19 09:49:19,466 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-19 09:49:19,472 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-19 09:49:19,473 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-19 09:49:19,483 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-19 09:49:19,490 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-19 09:49:19,490 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-19 09:49:19,497 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-19 09:49:19,504 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-19 09:49:19,504 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-19 09:49:19,510 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-19 09:49:19,517 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-19 09:49:19,517 ERROR [main] api.Utility       ( Utility.java:101)     - Unable to load Propertiesjava.io.FileNotFoundException: src\main\resources\configs\ConfigMET.properties (The system cannot find the file specified)
+2019-08-19 09:49:19,518 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-19 09:49:19,518 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1767)     -  - Test execution has failed.  Screenshot will be taken and Browser closed.
+2019-08-19 09:49:19,521 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1802)     - Screenshot capture ERROR!
+2019-08-19 09:49:19,527 ERROR [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:1774)     - Test failed due to this exception -- java.lang.NullPointerException
+2019-08-19 09:49:28,697 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Vehicle Card for Forensic Investigation
+2019-08-19 09:49:29,152 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-19 09:52:47,399 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:75)     - User is on Card Index screen for a 'Create intelligence report'
+2019-08-19 09:52:56,559 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Vehicle (Subject of)
+2019-08-19 09:53:12,271 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:470)     - User has filled form Main details on Vehiclecard
+2019-08-19 09:53:16,866 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:786)     - ###################### User has logged out from an application ######################
+2019-08-19 09:59:44,674 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Person Card for Forensic Investigation
+2019-08-19 09:59:44,985 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-19 10:03:03,283 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:75)     - User is on Card Index screen for a 'Create intelligence report'
+2019-08-19 10:03:09,575 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Person (Subject of)
+2019-08-19 10:03:33,802 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:786)     - ###################### User has logged out from an application ######################
+2019-08-19 10:19:08,445 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Creating Location Card for Forensic Investigation
+2019-08-19 10:19:08,562 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:66)     - ###################### Test started. ######################
+2019-08-19 10:22:25,827 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:75)     - User is on Card Index screen for a 'Create intelligence report'
+2019-08-19 10:22:33,034 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:378)     - User clicked on card - Location (Subject of)
+2019-08-19 10:22:49,042 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:786)     - ###################### User has logged out from an application ######################

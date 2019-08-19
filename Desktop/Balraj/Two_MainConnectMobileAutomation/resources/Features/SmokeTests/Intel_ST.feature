@@ -4,14 +4,14 @@ Feature: Intelligence smoke tests
 #Scenario 1
 @run @REGQA1 @REGQA2 @DEVINT2 @FUNCQA1 @TestCaseKey=CCI-T55792
 Scenario: Create an Intelligence record into REQUIRES ASSESEMENT state without any static object linked 
-	Given User is on Card Index screen for a 'Create intelligence report' 
+	#Given User is on Card Index screen for a 'Create intelligence report' 
 	When User read the test data sheet "Intel_ST" from file "SmokeTestData" 
 	And User read the test data for cards on sheet "Intel_ST_Cards" from file "SmokeTestData" 
 	
 	When User clicks on "Basic details" card with Link Reason "" 
 	And User has completed all the fields on 'Basic Details' card 
 	And User saves "Basic Details" card 
-	Then Logout from an application and close the browser
+	#Then Logout from an application and close the browser
 
 #	When User clicks on "Source" card with Link Reason "" 
 #	And User has completed all the fields on "Source details" form on "Source" card with Link Reason "" 
@@ -64,8 +64,8 @@ Scenario: Create an Intelligence record into REQUIRES ASSESEMENT state without a
 #	And User saves "Location" card with Link Reason "Subject of" 
 #	#
 #	#Link a new Vehicle object
-	When User clicks on "Vehicle" card with Link Reason "Subject of" 
-	And User has completed all the fields on the "Vehicle" card with Link Reason "Subject of" 
+#	When User clicks on "Vehicle" card with Link Reason "Subject of" 
+#	And User has completed all the fields on the "Vehicle" card with Link Reason "Subject of" 
 #	And User has completed all the fields on "Main details" form on "Vehicle" card with Link Reason "Subject of" 
 #	And User saves "Vehicle" card with Link Reason "Subject of" 
 #	#
