@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]">
-  <parameter name="config" value="DEVINT2"/>
-  <parameter name="platform" value="web"/>
-  <parameter name="mobileOS" value="android"/>
-  <test name="Test(failed)">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
       <class name="com.northgateps.cm.testRunner.TestRunner_ST">
         <methods>
@@ -16,5 +13,5 @@
         </methods>
       </class> <!-- com.northgateps.cm.testRunner.TestRunner_ST -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

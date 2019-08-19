@@ -12,7 +12,7 @@
           <include name="tearDownClass"/>
           <include name="generateReport"/>
           <include name="setUpClass"/>
-          <include name="feature" invocation-numbers="0"/>
+          <include name="feature"/>
         </methods>
       </class> <!-- com.northgateps.cm.testRunner.TestRunner_ST -->
     </classes>

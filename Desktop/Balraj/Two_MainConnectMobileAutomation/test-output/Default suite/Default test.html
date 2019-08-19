@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Aug 14 18:17:10 IST 2019</td>
+<td>Started on:</td><td>Mon Aug 19 09:49:18 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>1 seconds (1768 ms)</td>
+<tr><td>Total time:</td><td>1 seconds (1794 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,8 +75,8 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.northgateps.cm.testRunner.TestRunner_ST.feature()'><b>feature</b><br>Test class: com.northgateps.cm.testRunner.TestRunner_ST<br>Test method: Runs Cucumber Feature<br>Parameters: Intelligence smoke tests</td>
-<td><div><pre>cucumber.runtime.CucumberException: java.lang.NullPointerException
+<td title='com.northgateps.cm.testRunner.TestRunner_ST.feature()'><b>feature</b><br>Test class: com.northgateps.cm.testRunner.TestRunner_ST<br>Test method: Runs Cucumber Feature<br>Parameters: Forensic Investigation Unit test for Vehicle</td>
+<td><div><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: Test Failed due to this exception : java.lang.NullPointerException
 	at com.northgateps.cm.platform.api.CustomTestNGCucumberRunner.runCucumber(CustomTestNGCucumberRunner.java:112)
 	at com.northgateps.cm.platform.api.CustomAbstractTestNGCucumberTests.feature(CustomAbstractTestNGCucumberTests.java:25)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -103,15 +103,15 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-Caused by: java.lang.NullPointerException
-	at com.northgateps.cm.platform.api.Utility.closeBrowser(Utility.java:378)
-	at com.northgateps.cm.platform.api.ConnectMobilePageHelper.CloseFailedTest(ConnectMobilePageHelper.java:1776)
+Caused by: java.lang.AssertionError: Test Failed due to this exception : java.lang.NullPointerException
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.northgateps.cm.platform.api.ConnectMobilePageHelper.CloseFailedTest(ConnectMobilePageHelper.java:1777)
 	at com.northgateps.cm.intel.WebMobileWrappers.IntelWebPageObject.CloseFailedTest(IntelWebPageObject.java:1534)
 	at com.northgateps.cm.intel.WebMobileWrappers.IntelWebMobileWrapper.CloseFailedTest(IntelWebMobileWrapper.java:399)
-	at com.northgateps.cm.intel.stepDefs.IntelFTS01.userIsOnCardIndexScreenForACreateIntelligenceReport(IntelFTS01.java:26)
-	at ?.Given User is on Card Index screen for a &apos;Create intelligence report&apos;(resources/Features/SmokeTests/Intel_ST.feature:7)
-</pre></div><a href='#' onClick='toggleBox("stack-trace375097969", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace375097969'><pre>cucumber.runtime.CucumberException: java.lang.NullPointerException
+	at com.northgateps.cm.intel.stepDefs.IntelFTS01.userIsOnCardIndexScreenForACreateIntelligenceReport(IntelFTS01.java:45)
+	at ?.Given User is on Card Index screen for a &apos;Create intelligence report&apos;(resources/Features/Vehicle.feature:8)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1751500625", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1751500625'><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: Test Failed due to this exception : java.lang.NullPointerException
 	at com.northgateps.cm.platform.api.CustomTestNGCucumberRunner.runCucumber(CustomTestNGCucumberRunner.java:112)
 	at com.northgateps.cm.platform.api.CustomAbstractTestNGCucumberTests.feature(CustomAbstractTestNGCucumberTests.java:25)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -138,13 +138,13 @@ Caused by: java.lang.NullPointerException
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-Caused by: java.lang.NullPointerException
-	at com.northgateps.cm.platform.api.Utility.closeBrowser(Utility.java:378)
-	at com.northgateps.cm.platform.api.ConnectMobilePageHelper.CloseFailedTest(ConnectMobilePageHelper.java:1776)
+Caused by: java.lang.AssertionError: Test Failed due to this exception : java.lang.NullPointerException
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.northgateps.cm.platform.api.ConnectMobilePageHelper.CloseFailedTest(ConnectMobilePageHelper.java:1777)
 	at com.northgateps.cm.intel.WebMobileWrappers.IntelWebPageObject.CloseFailedTest(IntelWebPageObject.java:1534)
 	at com.northgateps.cm.intel.WebMobileWrappers.IntelWebMobileWrapper.CloseFailedTest(IntelWebMobileWrapper.java:399)
-	at com.northgateps.cm.intel.stepDefs.IntelFTS01.userIsOnCardIndexScreenForACreateIntelligenceReport(IntelFTS01.java:26)
-	at ?.Given User is on Card Index screen for a &apos;Create intelligence report&apos;(resources/Features/SmokeTests/Intel_ST.feature:7)
+	at com.northgateps.cm.intel.stepDefs.IntelFTS01.userIsOnCardIndexScreenForACreateIntelligenceReport(IntelFTS01.java:45)
+	at ?.Given User is on Card Index screen for a &apos;Create intelligence report&apos;(resources/Features/Vehicle.feature:8)
 </pre></div></td>
 <td>0</td>
 <td>com.northgateps.cm.testRunner.TestRunner_ST@47ef968d</td></tr>
