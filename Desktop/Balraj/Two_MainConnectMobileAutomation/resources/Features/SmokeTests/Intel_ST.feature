@@ -11,7 +11,7 @@ Scenario: Create an Intelligence record into REQUIRES ASSESEMENT state without a
 	When User clicks on "Basic details" card with Link Reason "" 
 	And User has completed all the fields on 'Basic Details' card 
 	And User saves "Basic Details" card 
-	#Then Logout from an application and close the browser
+	Then Logout from an application and close the browser
 
 #	When User clicks on "Source" card with Link Reason "" 
 #	And User has completed all the fields on "Source details" form on "Source" card with Link Reason "" 

@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="222030" started-at="2019-08-19T04:49:07Z" finished-at="2019-08-19T04:52:49Z">
+  <suite name="Default suite" duration-ms="1222" started-at="2019-08-20T12:53:55Z" finished-at="2019-08-20T12:53:56Z">
     <groups>
       <group name="cucumber">
-        <method signature="CustomAbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.northgateps.cm.testRunner.TestRunner_ST@3dd4520b]" name="feature" class="com.northgateps.cm.platform.api.CustomAbstractTestNGCucumberTests"/>
+        <method signature="CustomAbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.northgateps.cm.testRunner.TestRunner_ST@47ef968d]" name="feature" class="com.northgateps.cm.platform.api.CustomAbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="222030" started-at="2019-08-19T04:49:07Z" finished-at="2019-08-19T04:52:49Z">
+    <test name="Default test" duration-ms="1222" started-at="2019-08-20T12:53:55Z" finished-at="2019-08-20T12:53:56Z">
       <class name="com.northgateps.cm.testRunner.TestRunner_ST">
-        <test-method status="PASS" signature="setUpClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.northgateps.cm.testRunner.TestRunner_ST@3dd4520b]" name="setUpClass" is-config="true" duration-ms="515" started-at="2019-08-19T10:19:07Z" finished-at="2019-08-19T10:19:07Z">
+        <test-method status="PASS" signature="setUpClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.northgateps.cm.testRunner.TestRunner_ST@47ef968d]" name="setUpClass" is-config="true" duration-ms="483" started-at="2019-08-20T18:23:55Z" finished-at="2019-08-20T18:23:56Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[DEVINT2]]>
+                <![CDATA[MET]]>
               </value>
             </param>
             <param index="1">
@@ -31,30 +31,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.northgateps.cm.testRunner.TestRunner_ST@3dd4520b]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-19T10:19:07Z" finished-at="2019-08-19T10:19:07Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.northgateps.cm.testRunner.TestRunner_ST@47ef968d]" name="setUp" is-config="true" duration-ms="1" started-at="2019-08-20T18:23:56Z" finished-at="2019-08-20T18:23:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.northgateps.cm.testRunner.TestRunner_ST@3dd4520b]" name="feature" duration-ms="221058" started-at="2019-08-19T10:19:07Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-08-19T10:22:49Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.northgateps.cm.testRunner.TestRunner_ST@47ef968d]" name="feature" duration-ms="300" started-at="2019-08-20T18:23:56Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-08-20T18:23:56Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Forensic Investigation Unit test for Location]]>
+                <![CDATA[Forensic Investigation Test CF-5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.northgateps.cm.testRunner.TestRunner_ST@3dd4520b]" name="tearDownClass" is-config="true" duration-ms="373" started-at="2019-08-19T10:22:49Z" finished-at="2019-08-19T10:22:49Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.northgateps.cm.testRunner.TestRunner_ST@47ef968d]" name="tearDownClass" is-config="true" duration-ms="356" started-at="2019-08-20T18:23:56Z" finished-at="2019-08-20T18:23:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.northgateps.cm.testRunner.TestRunner_ST@3dd4520b]" name="generateReport" is-config="true" duration-ms="78" started-at="2019-08-19T10:22:49Z" finished-at="2019-08-19T10:22:49Z">
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.northgateps.cm.testRunner.TestRunner_ST@47ef968d]" name="generateReport" is-config="true" duration-ms="78" started-at="2019-08-20T18:23:56Z" finished-at="2019-08-20T18:23:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
       </class> <!-- com.northgateps.cm.testRunner.TestRunner_ST -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

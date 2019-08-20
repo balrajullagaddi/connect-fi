@@ -15,16 +15,16 @@ public class IntelFTS01 {
 	private String LogFilePath = "target/EaG_Log";
 	private String TestName = "Intel_FTS";
 	private IntelWebMobileWrapper intelWebMobileWrapper;
-	
+	private  InvWebMobileWrapper invWebMobileWrapper;
 	
 
 	public IntelFTS01() throws Exception {
 		System.out.println(this.getClass().getName() + " is running..");
 		intelWebMobileWrapper = new IntelWebMobileWrapper();
-		
+		invWebMobileWrapper = new InvWebMobileWrapper();
 	}
 
-	@Before
+ 	//@Before
 	
 	
 	
@@ -52,6 +52,18 @@ public class IntelFTS01 {
 	}
 }
 	
+	@Given("^User is on Card Index screen for a 'Create Generic Investigation'$")
+	public void userIsOnCardIndexScreenForACreateGenericInvestigation() throws Throwable {
+		try {
+			invWebMobileWrapper.userIsOnCardIndexScreenForACreateGenericInvestigation();
+		} catch (Exception e) {
+			intelWebMobileWrapper.CloseFailedTest(LogFilePath, LogFilePath, "", TestName, e);
+		}catch (AssertionError e) {
+			intelWebMobileWrapper.CloseFailedTest(LogFilePath, LogFilePath, "", TestName, e.fillInStackTrace());
+
+		}
+
+	}
 
 	@When("^User clicks on \"(.*?)\" card with Link Reason \"(.*?)\"$")
 	public void userClicksOnCardWithLinkReason(String cardName, String LinkReason) throws Exception {

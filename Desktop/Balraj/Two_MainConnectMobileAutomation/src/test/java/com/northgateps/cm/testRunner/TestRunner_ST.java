@@ -21,15 +21,15 @@ import cucumber.api.SnippetType;
 						 "com.northgateps.cm"
 						}, 
 				 monochrome = true, 
-				 dryRun = false,
+				 dryRun = true,
 				 tags = {"@DEVINT2"},
 				 features = {
-						 //"resources/Features/SmokeTests/Intel_ST.feature",
+						 "resources/Features/SmokeTests/Basicdetails.feature",
 						 //"resources/Features/SmokeTests/Source.feature",
-						 "resources/Features/SmokeTests/Location.feature",
-						//"resources/Features/SmokeTests/Incident_Location.feature",
+						 //"resources/Features/SmokeTests/Location.feature",
 						 //"resources/Features/SmokeTests/Vehicle.feature",
 						 //"resources/Features/SmokeTests/Person.feature",
+						// "resources/Features/SmokeTests/Incident_Location.feature",
 							}
 				)
 

@@ -5,7 +5,6 @@ Feature: Intelligence smoke tests for Source
 @run @REGQA1 @DEVINT2 @REGQA2 @FUNCQA1 @TestCaseKey=CCI-T55791
 Scenario:  Create Create Generic Investigation with all static objects linked and take it to Requires Assessment or Review status 
 	Given User is on Card Index screen for a 'Create Generic Investigation'
-	#Given User is on Card Index screen for a 'Create intelligence report'  
 	When User read the test data sheet "Inv_Smoke_Scenario2" from file "SmokeTestData" 
 	And User read the test data for cards on sheet "Inv_Smoke_Scenario2_Cards" from file "SmokeTestData" 
 
