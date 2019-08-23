@@ -21,7 +21,7 @@ import cucumber.api.SnippetType;
 						 "com.northgateps.cm"
 						}, 
 				 monochrome = true, 
-				 dryRun = true,
+				 dryRun = false,
 				 tags = {"@DEVINT2"},
 				 features = {
 						 "resources/Features/SmokeTests/Basicdetails.feature",
