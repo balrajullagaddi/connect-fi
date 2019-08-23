@@ -2608,3 +2608,7 @@ Session ID: 69673364cb39c61204fdaa21a5915667
 2019-08-20 11:13:06,805 ERROR [main] api.Utility       ( Utility.java:536)     - Error while processing request in waitForElementToBe java.lang.NullPointerException
 2019-08-20 12:43:19,187 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create Create Generic Investigation with all static objects linked and take it to Requires Assessment or Review status
 2019-08-20 12:43:19,541 INFO  [main] WebMobileWrappers.InvWebPageObject (InvWebPageObject.java:50)     - ###################### Test started. ######################
+2019-08-23 15:51:01,294 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Forensic Investigation record by adding data in Basic details card
+2019-08-23 15:51:01,584 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:786)     - ###################### User has logged out from an application ######################
+2019-08-23 15:51:32,678 INFO  [main] api.ConnectMobilePageHelper (ConnectMobilePageHelper.java:81)     - Scenario Execution started: Create an Forensic Investigation record by adding data in Basic details card
+2019-08-23 15:51:32,960 INFO  [main] WebMobileWrappers.IntelWebPageObject (IntelWebPageObject.java:786)     - ###################### User has logged out from an application ######################

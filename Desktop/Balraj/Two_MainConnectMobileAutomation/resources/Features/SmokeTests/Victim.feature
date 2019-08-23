@@ -22,14 +22,24 @@ Scenario:  User  click on Victim card and than by  Searching the Victim Card ,
 	When I click on "Yes,card is required" button
 	Then the Object Basic Details search  form of Victim is displayed
 	
-	
+Scenario: Search for Surname and Gender
+
 	Given user is on the Object Basic Details search form of Victim
 	When I enter "Rohan" as "Surname"
 	And I select "Male" as "Gender"
 	And click on "Next" button
 	Then I should get the data searched against pole database and displayed 
+
+Scenario: Search for Forename 1 and Gender
+
+	Given user is on the Object Basic Details search form of Victim
+	When I enter "Rodricks" as "Forename 1"
+	And I select "Male" as "Gender"
+	And click on "Next" button
+	Then I should get the data searched against pole database and displayed 
+
 	
-	Scenario: Checking for Mandatory feild
+Scenario: Checking for Mandatory feild
 	
     Given user is on "Victim" card
 	And It will display "Are there any Location " involved as "No,card not required" and "Yes,card is required" button

@@ -22,6 +22,8 @@ Scenario: User should be able to map the Incident Location to the New Forensic I
 	Given user is on Incident Location card selection form
 	And It will display "Are there any Location " involved as "No,card not required" and "Yes,card is required" button
 	When I click on "Yes,card is required" button
+	When I enter "United Kingdom" as "Location type"
+	And I enter "UK129" as "Number"
 	And the Object Basic Details form of Incident Location is displayed
 	And click on the desired search result 
 	And the Incident Location Template should be displayed in Read only mode
@@ -48,6 +50,33 @@ Scenario: Adding Blank data
 	When I click on "Yes,card is required" button
 	And I click on "Next" Button
 	Then it should display message "Minimum data requirement not meet" 
+	
+Scenario: Adding Special char
+
+    Given user is on Incident Location card selection form
+	And It will display "Are there any Location " involved as "No,card not required" and "Yes,card is required" button
+	When I click on "Yes,card is required" button
+	When I enter "United Kingdom" as "Location type"
+	And I enter "UK129" as "Number"
+	And the Object Basic Details form of Incident Location is displayed
+	And click on the desired search result 
+	And the Incident Location Template should be displayed in Read only mode
+	And click on  "This is the Location " button
+	And the focus will be on the Object Editor form Tab  "Basic Details" of Incident Location
+	And I select  "Cycle Path" in Location Type
+	And I enter "!@#$%^'" in Number
+	And I enter "!@#$%^' " in Premises Name
+	And I enter "!@#$%^'" in Flat
+	And I enter "!@#$%^'" in Address Line 1
+	And I enter "!@#$%^'" in Address Line 2
+	And I enter "!@#$%^'" in Town
+	And I enter "!@#$%^'" in Postcode
+	And I enter "!@#$%^'" in County
+	And I select "Yes" as Examination Required?
+	And click on "Save & Return" button
+	Then the Record should Save and displayed in the grid
+	
+
 	
 Scenario: Search Creteria for Location type , Number and  Address Line 1
 	
