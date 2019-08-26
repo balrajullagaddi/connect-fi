@@ -31,7 +31,7 @@ Scenario: Search for Surname and Gender and Mandatory feild checked on Object ed
 	And I should get the data searched against pole database and displayed
 	And click on the displayed record
 	And the object editor for Basic details should be displayed
-	And clear the "Surname"
+	And clear the "Surname" 
 	And clear the "Gender"
 	And click on "Save & Return" button
 	Then I should get the message "Please enter Surname"
@@ -122,17 +122,17 @@ Scenario:  Unknown Victim = "No" , Date of Birth selection
 	And click on  "This is the Victim " button
 	And the focus will be on the Object Editor form Tab  "Basic Details" of victim
 	And I click on "No" on Unknown Victim
-	And I enter "John" in Surname
-	And I enter "Raymond " in Forename 1
-	And I enter "York" in Forename 2
-	And I select "Male" in Gender
-	And I enter "01/01/1982" in Date of Birth
-	And I enter "45666" in PNC ID
-	And I enter "123456/19/A" in CRO
-	And I enter "9820000000" in Mobile
-	And I enter "22333393" in Landline
-	And I enter "john@yahoo.com" in Email
-	And I click "Yes" in Examination Required?
+	And I enter "John" in Surname field
+	And I enter "Raymond " in Forename 1 field
+	And I enter "York" in Forename 2 field
+	And I select "Male" in Gender field 
+	And I enter "01/01/1982" in Date of Birth field
+	And I enter "45666" in PNC ID field
+	And I enter "123456/19/A" in CRO field
+	And I enter "9820000000" in Mobile field
+	And I enter "22333393" in Landline field
+	And I enter "john@yahoo.com" in Email field
+	And I click "Yes" in Examination Required? 
 	And I click "Yes" as Is Examination Address same as Home Address?
 	And click on "Save & Return" button
 	Then the Record should Save and displayed in the grid
@@ -149,19 +149,18 @@ Scenario:  Unknown Victim = "No" , Date of Birth selection
 	And click on  "This is the Victim " button
 	And the focus will be on the Object Editor form Tab  "Basic Details" of victim
 	And I click on "No" on Unknown Victim
-	And I enter "John" in Surname
-	And I enter "Raymond " in Forename 1
-	And I enter "York" in Forename 2
-	And I select "Male" in Gender
-	And I select "Male" in Gender
-	And I enter "25" in Age from
-	And I enter "30" in Age To
-	And I enter "20" in Estimated age
-	And I enter "45666" in PNC ID
-	And I enter "123456/19/A" in CRO
-	And I enter "9820000000" in Mobile
-	And I enter "22333393" in Landline
-	And I enter "john@yahoo.com" in Email
+	And I enter "John" in Surname field
+	And I enter "Raymond " in Forename 1 field
+	And I enter "York" in Forename 2 field
+	And I select "Male" in Gender field
+	And I enter "25" in Age from field
+	And I enter "30" in Age To field
+	And I enter "20" in Estimated age field
+	And I enter "45666" in PNC ID field
+	And I enter "123456/19/A" in CRO field
+	And I enter "9820000000" in Mobile field
+	And I enter "22333393" in Landline field
+	And I enter "john@yahoo.com" in Email field
 	And I click "No" in Examination Required?
 	And I click "No" as Is Examination Address same as Home Address?
 	And click on "Save & Return" button
@@ -181,16 +180,16 @@ Scenario:  Validation for Date of Birth if added as Future date
 	And click on  "This is the Victim " button
 	And the focus will be on the Object Editor form Tab  "Basic Details" of victim
 	And I click on "No" on Unknown Victim
-	And I enter "John" in Surname
-	And I enter "Raymond " in Forename 1
-	And I enter "York" in Forename 2
-	And I select "Male" in Gender
-	And I enter "01/01/2020" in Date of Birth
-	And I enter "45666" in PNC ID
-	And I enter "123456/19/A" in CRO
-	And I enter "9820000000" in Mobile
-	And I enter "22333393" in Landline
-	And I enter "john@yahoo.com" in Email
+	And I enter "John" in Surname field
+	And I enter "Raymond " in Forename 1 field
+	And I enter "York" in Forename 2 field
+	And I select "Male" in Gender field
+	And I enter "01/01/2020" in Date of Birth field
+	And I enter "45666" in PNC ID field
+	And I enter "123456/19/A" in CRO field
+	And I enter "9820000000" in Mobile field
+	And I enter "22333393" in Landline field
+	And I enter "john@yahoo.com" in Email field
 	And I click "Yes" in Examination Required?
 	And I click "Yes" as Is Examination Address same as Home Address?
 	And click on "Save & Return" button
@@ -210,11 +209,11 @@ Scenario:  Validation for Date of Birth if added as Future date
 	And click on  "This is the Victim " button
 	And the focus will be on the Object Editor form Tab  "Basic Details" of victim
 	And I click on "No" on Unknown Victim
-	And I enter "John" in Surname
-	And I enter "Raymond " in Forename 1
-	And I enter "York" in Forename 2
-	And I select "Male" in Gender
-	And I enter "01/01/2020" in Date of Birth
+	And I enter "John" in Surname field
+	And I enter "Raymond " in Forename 1 field
+	And I enter "York" in Forename 2 field
+	And I select "Male" in Gender field
+	And I enter "01/01/2020" in Date of Birth field
 	Then I should get the message "Age From date cannot be Greater than Age To date"
 	
 	
@@ -233,17 +232,17 @@ Scenario: Validation for CRO Number
 	And click on  "This is the Victim " button
 	And the focus will be on the Object Editor form Tab  "Basic Details" of victim
 	And I click on "No" on Unknown Victim
-	And I enter "John" in Surname
-	And I enter "Raymond " in Forename 1
-	And I enter "York" in Forename 2
-	And I select "Male" in Gender
-	And I enter "01/01/1982" in Date of Birth
-	And I enter "45666" in PNC ID
-	And I enter "12345/78/B" in CRO
-	And I enter "9820000000" in Mobile
-	And I enter "22333393" in Landline
-	And I enter "john@yahoo.com" in Email
-	And I click "Yes" in Examination Required?
+	And I enter "John" in Surname field
+	And I enter "Raymond " in Forename 1 field
+	And I enter "York" in Forename 2 field
+	And I select "Male" in Gender field
+	And I enter "01/01/1982" in Date of Birth field
+	And I enter "45666" in PNC ID field
+	And I enter "12345/78/B" in CRO field
+	And I enter "9820000000" in Mobile field
+	And I enter "22333393" in Landline field
+	And I enter "john@yahoo.com" in Email field
+	And I click "Yes" in Examination Required? 
 	And I click "Yes" as Is Examination Address same as Home Address?
 	And click on "Save & Return" button
 	Then I should recive message "Enter CRO number in proper format"
@@ -251,7 +250,7 @@ Scenario: Validation for CRO Number
 # When we enter More digit in the First 6 digit slot
 
     Given user is on Victim card
-    When I enter "1234567/78/B" in CRO
+    When I enter "1234567/78/B" in CRO field
     And click on "Save & Return" button
     Then I should recive message "Enter CRO number in proper format"
     
@@ -259,35 +258,35 @@ Scenario: Validation for CRO Number
   # When we enter a char in the First 6 digit slot
   
     Given user is on Victim card
-    When I enter "12D456/78/B" in CRO
+    When I enter "12D456/78/B" in CRO field
     And click on "Save & Return" button
     Then I should recive message "Enter CRO number in proper format"
 	
 	# When we enter Less digit in the Second 2 digit slot
 	
 	Given user is on Victim card
-    When I enter "123456/8/B" in CRO
+    When I enter "123456/8/B" in CRO field
     And click on "Save & Return" button
     Then I should recive message "Enter CRO number in proper format"
 	 
 	# When we enter More digit in the Second 2 digit slot
 	
     Given user is on Victim card
-    When I enter "1234567/978/B" in CRO
+    When I enter "1234567/978/B" in CRO field
     And click on "Save & Return" button
     Then I should recive message "Enter CRO number in proper format"
     
     # When we enter a char in the Second 2 digit slot
     
     Given user is on Victim card
-    When I enter "12D4567/W8/B" in CRO
+    When I enter "12D4567/W8/B" in CRO field
     And click on "Save & Return" button
     Then I should recive message "Enter CRO number in proper format"
     
     # When we enter the future Year for  Second 2 digit slot
     
     Given user is on Victim card
-    When I enter "12D4567/21/B" in CRO
+    When I enter "12D4567/21/B" in CRO field
     And click on "Save & Return" button
     Then I should recive message "Enter CRO number in proper format"
          
@@ -295,7 +294,7 @@ Scenario: Validation for CRO Number
 	# When we keep CRO number format char in Lower case  for Third slot
 	
     Given user is on Victim card
-    When I enter "123456/78/b" in CRO
+    When I enter "123456/78/b" in CRO field
     And click on "Save & Return" button
     Then I should recive message "Enter CRO number in proper format"
      	
@@ -303,35 +302,35 @@ Scenario: Validation for CRO Number
      # When we enter Digit in the  Third slot
     
     Given user is on Victim card
-    When I enter "123456/78/2" in CRO
+    When I enter "123456/78/2" in CRO field
     And click on "Save & Return" button
     Then I should recive message "Enter CRO number in proper format"
       
     # When we enter Upper case char in Multiple in the  Third slot
     
     Given user is on Victim card
-    When I enter "123456/78/AA" in CRO
+    When I enter "123456/78/AA" in CRO field
     And click on "Save & Return" button
     Then I should recive message "Enter CRO number in proper format"
     
     # When we enter "I " in Third slot
     
     Given user is on Victim card
-    When I enter "123456/78/I" in CRO
+    When I enter "123456/78/I" in CRO field
     And click on "Save & Return" button
     Then I should recive message "Enter CRO number in proper format"
     
     # When we enter " O " in Third slot
     
     Given user is on Victim card
-    When I enter "123456/78/O" in CRO
+    When I enter "123456/78/O" in CRO field
     And click on "Save & Return" button
     Then I should recive message "Enter CRO number in proper format"
     
     # When we enter " S " in Third slot
     
     Given user is on Victim card
-    When I enter "123456/78/S" in CRO
+    When I enter "123456/78/S" in CRO field
     And click on "Save & Return" button
     Then I should recive message "Enter CRO number in proper format"
           
@@ -339,7 +338,7 @@ Scenario: Validation for CRO Number
          
          
 	
-Scenario: Add data in  Future Detail Tab, Home Address and Examination Address
+Scenario: Adding  data in  Future Detail Tab, Home Address and Examination Address
 	
 	Given user is on Victim card selection form 
 	And It will display "Are there any Victim " involved as "No,card not required" and "Yes,card is required" button
@@ -352,30 +351,131 @@ Scenario: Add data in  Future Detail Tab, Home Address and Examination Address
 	And click on  "This is the Victim " button
 	And the focus will be on the Object Editor form Tab  "Basic Details" of victim
 	And click on "Future Details" tab
-	And enter "Details" in Notes
-	And click on "Home Address" tab
-	And I enter "Shop" in Location Type
-	And I enter "345" in Number
-	And I enter "Hill Town" in Premises Name
-	And I enter "Bridgetone" in Flat
-	And I enter "Bridgetone lane" in Address Line 1
-	And I enter " lane 4" in Address Line 2
-	And I enter "London" in Town
-	And I enter " SW1A 2AA " in Postcode
-	And I enter " UK " in County
+	And enter "Details" in Notes field
+	And click on "Home Address" tab field
+	And I enter "Shop" in Location Type field
+	And I enter "345" in Number field
+	And I enter "Hill Town" in Premises Name field
+	And I enter "Bridgetone" in Flat field
+	And I enter "Bridgetone lane" in Address Line 1 field
+	And I enter " lane 4" in Address Line 2 field
+	And I enter "London" in Town field
+	And I enter " SW1A 2AA " in Postcode field
+	And I enter " UK " in County field
 	And click on "Examination Address" Tab
-	And I enter "Car Park" in Location Type
-	And I enter "8988" in Number
-	And I enter "Hill Town" in Premises Name
-	And I enter "Bridgelon" in Flat
-	And I enter "Bridgetone lane" in Address Line 1
-	And I enter " lane 4" in Address Line 2
-	And I enter "London" in Town
-	And I enter " SW1A 2AA " in Postcode
-	And I enter " UK " in County
+	And I enter "Car Park" in Location Type field
+	And I enter "8988" in Number field
+	And I enter "Hill Town" in Premises Name field
+	And I enter "Bridgelon" in Flat field
+	And I enter "Bridgetone lane" in Address Line 1 field
+	And I enter " lane 4" in Address Line 2 field
+	And I enter "London" in Town field
+	And I enter " SW1A 2AA " in Postcode field
+	And I enter " UK " in County field
 	And click on "Save & Return" button
 	Then the record should Save and displayed in the Grid as Victim card
 	
+Scenario: Adding  Special char  in  Future Detail Tab, Home Address and Examination Address
+	
+	Given user is on Victim card selection form 
+	And It will display "Are there any Victim " involved as "No,card not required" and "Yes,card is required" button
+	And I click on "Yes,card is required" button
+	When I enter "Rohan" as "Surname"
+    And I select "Male" as "Gender"
+	And click on "Next" button
+	And click on the desired search result 
+	And the victim Template should be displayed in Read only mode
+	And click on  "This is the Victim " button
+	And the focus will be on the Object Editor form Tab  "Basic Details" of victim
+	And I click on "No" on Unknown Victim
+	And I enter "!~@#$%^'" in Surname field
+	And I enter "!~@#$%^'" in Forename 1 field
+	And I enter "!~@#$%^'" in Forename 2 field
+	And I select "Male" in Gender field
+	And I enter "01/01/1982" in Date of Birth field
+	And I enter "!~@#$%^'" in PNC ID field
+	And I enter "!~@#$%^'" in CRO field
+	And I enter "!~@#$%^'" in Mobile field
+	And I enter "!~@#$%^'" in Landline field
+	And I enter "!~@#$%^'@yahoo.com" in Email field
+	And I click "Yes" in Examination Required?
+	And I click "Yes" as Is Examination Address same as Home Address?
+	And click on "Future Details" tab
+	And enter "!~@#$%^'" in Notes field
+	And click on "Home Address" tab
+	And I enter "Shop" in Location Type field
+	And I enter "345" in Number field
+	And I enter "!~@#$%^'" in Premises Name field
+	And I enter "!~@#$%^'" in Flat field
+	And I enter "!~@#$%^'" in Address Line 1 field
+	And I enter "!~@#$%^'" in Address Line 2 field
+	And I enter "!~@#$%^'" in Town field
+	And I enter " !~@#$%^' " in Postcode field
+	And I enter "!~@#$%^'" in County field
+	And click on "Examination Address" Tab
+	And I select "Car Park" in Location Type field
+	And I enter "8988" in Number field
+	And I enter "!~@#$%^'" in Premises Name field
+	And I enter "!~@#$%^'" in Flat field
+	And I enter "!~@#$%^'" in Address Line 1 field
+	And I enter "!~@#$%^'" in Address Line 2 field
+	And I enter "!~@#$%^'" in Town field field
+	And I enter "!~@#$%^' " in Postcode field
+	And I enter "!~@#$%^'" in County field
+	And click on "Save & Return" button
+	Then the record should Save and displayed in the Grid as Victim card
+
+
+Scenario: Adding more data length in text feild
+
+    Given user is on Victim card selection form 
+	And It will display "Are there any Victim " involved as "No,card not required" and "Yes,card is required" button
+	And I click on "Yes,card is required" button
+	When I enter "Rohan" as "Surname"
+    And I select "Male" as "Gender"
+	And click on "Next" button
+	And click on the desired search result 
+	And the victim Template should be displayed in Read only mode
+	And click on  "This is the Victim " button
+	And the focus will be on the Object Editor form Tab  "Basic Details" of victim
+	And I click on "No" on Unknown Victim
+	And I enter characters more than "40" in Surname field
+	And I enter characters more than "40" in Forename 1 field
+	And I enter characters more than "100" in Forename 2 field
+	And I select "Male" in Gender field
+	And I enter "01/01/1982" in Date of Birth field
+	And I enter "878" in PNC ID field
+	And I enter "123456/12/g" in CRO field
+	And I enter "9812343456" in Mobile field
+	And I enter "41276728" in Landline field
+	And I enter "john@yahoo.com" in Email field
+	And I click "Yes" in Examination Required? 
+	And I click "Yes" as Is Examination Address same as Home Address?
+	And click on "Future Details" tab
+	And enter "Notes" in Notes field
+	And click on "Home Address" tab
+	And I enter "Shop" in Location Type field
+	And I enter "345" in Number field
+	And I enter characters more than "100" in Premises Name field
+	And I enter characters more than "100" in Flat field
+	And I enter characters more than "100" in Address Line 1 field
+	And I enter characters more than "100" in Address Line 2 field
+	And I enter characters more than "100" in Town field
+	And I enter characters more than "8" in Postcode field
+	And I enter characters more than "100" in County field
+	And click on "Examination Address" Tab
+	And I select "Car Park" in Location Type field
+	And I enter "8988" in Number field
+	And I enter characters more than "100" in Premises Name field
+	And I enter characters more than "100" in Flat field
+	And I enter characters more than "100" in Address Line 1 field
+	And I enter characters more than "100" in Address Line 2 field
+	And I enter characters more than "100" in Town field
+	And I enter characters more than "100" in Postcode field
+	And I enter characters more than "100" in County field
+	And click on "Save & Return" button
+	Then the record should Save and displayed in the Grid as Victim card
+
 	 
 Scenario: "This is not the Victim " button
 	 
@@ -420,38 +520,38 @@ Scenario: Edit of the Card
 
     Given user is on the Victim card grid
     And click on saved Victim Card which is displayed in the grid
-	When I update "Johnnat" in Surname
-	And I update "Raymond's " in Forename 1
-	And I update "Yorkes" in Forename 2
-	And I select "Male" in Gender
-	And I update "01/01/1982" in Date of Birth
-	And I update "4566" in PNC ID
-	And I update "123457/19/A" in CRO
-	And I update "9820000001" in Mobile
-	And I update "22333394" in Landline
-	And I update "john1@yahoo.com" in Email
-    And click on "Future Details" tab
-	And update "Details 1" in Notes
-    And click on "Home Address" tab
-	And I update "Mall" in Location Type
-	And I update "456" in Number
-	And I update "Hill road" in Premises Name
-	And I update "Bridge" in Flat
-	And I update "Bridgetone " in Address Line 1
-	And I update " lane 5" in Address Line 2
-	And I update "Liverpool" in Town
-	And I update " SW1A 2AB " in Postcode
-	And I update " United Kingdom " in County
-	And click on "Examination Address" Tab
-	And I update "Car" in Location Type
-	And I update "89880" in Number
-	And I update "Rawa Town" in Premises Name
-	And I update "Bridgestone" in Flat
-	And I update "Bridgetone" in Address Line 1
-	And I update " laneNo 7" in Address Line 2
-	And I update "Liverpool" in Town
-	And I update " SW1A 2AC " in Postcode
-	And I update " UK " in County
+	When I update "Johnnat" in Surname field
+	And I update "Raymond's " in Forename 1 field
+	And I update "Yorkes" in Forename 2 field
+	And I select "Male" in Gender field
+	And I update "01/01/1982" in Date of Birth field
+	And I update "4566" in PNC ID field
+	And I update "123457/19/A" in CRO field
+	And I update "9820000001" in Mobile field 
+	And I update "22333394" in Landline field
+	And I update "john1@yahoo.com" in Email field
+    And click on "Future Details" tab field
+	And update "Details 1" in Notes field
+    And click on "Home Address" tab field
+	And I update "Mall" in Location Type field
+	And I update "456" in Number field
+	And I update "Hill road" in Premises Name field
+	And I update "Bridge" in Flat field
+	And I update "Bridgetone " in Address Line 1 field
+	And I update " lane 5" in Address Line 2 field
+	And I update "Liverpool" in Town field
+	And I update " SW1A 2AB " in Postcode field
+	And I update " United Kingdom " in County field
+	And click on "Examination Address" Tab 
+	And I update "Car" in Location Type field
+	And I update "89880" in Number field
+	And I update "Rawa Town" in Premises Name field
+	And I update "Bridgestone" in Flat field
+	And I update "Bridgetone" in Address Line 1 field
+	And I update " laneNo 7" in Address Line 2 field
+	And I update "Liverpool" in Town field
+	And I update " SW1A 2AC " in Postcode field
+	And I update " UK " in County field
 	And click on "Save & Return" button
 	Then the record should Save and displayed in the Grid as Victim card
     	
@@ -481,19 +581,18 @@ Scenario: Deletion of the card with added details
 	And click on  "This is the Victim " button
 	And the focus will be on the Object Editor form Tab  "Basic Details" of victim
 	And I click on "No" on Unknown Victim
-	And I enter "John" in Surname
-	And I enter "Raymond " in Forename 1
-	And I enter "York" in Forename 2
-	And I select "Male" in Gender
-	And I select "Male" in Gender
-	And I enter "25" in Age from
-	And I enter "30" in Age To
-	And I enter "20" in Estimated age
-	And I enter "45666" in PNC ID
-	And I enter "123456/19/A" in CRO
-	And I enter "9820000000" in Mobile
-	And I enter "22333393" in Landline
-	And I enter "john@yahoo.com" in Email
+	And I enter "John" in Surname field
+	And I enter "Raymond " in Forename 1 field
+	And I enter "York" in Forename 2 field
+	And I select "Male" in Gender field
+	And I enter "25" in Age from field
+	And I enter "30" in Age To field
+	And I enter "20" in Estimated age field
+	And I enter "45666" in PNC ID field
+	And I enter "123456/19/A" in CRO field
+	And I enter "9820000000" in Mobile field
+	And I enter "22333393" in Landline field
+	And I enter "john@yahoo.com" in Email field
 	And I click "No" in Examination Required?
 	And I click "No" as Is Examination Address same as Home Address?
 	And click on "Save & Return" button

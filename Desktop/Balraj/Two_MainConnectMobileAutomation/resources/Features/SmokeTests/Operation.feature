@@ -96,7 +96,7 @@ Scenario:  For  "Card Not Required" button
 	
 
 
-Scenario:  Saving of the data 
+Scenario:  Saving of the data in the Basic details tab
 	 
     Given user is on Operation card selection form
 	And It will display "Are there any Operation " involved as "No,card not required" and "Yes,card is required" button
@@ -107,18 +107,84 @@ Scenario:  Saving of the data
 	And the Operation Template should be displayed in Read only mode
 	And click on  "This is the Operation " button
 	And the focus will be on the Object Editor form Tab  "Basic Details" of Operation
-	And I enter "Blue Star" in Operation Name
-	And I enter "01/01/2019 " in Operation Start Date
-	And I enter "12:00" in Operation Start Time
-	And I enter "31/01/2019" in Operation End Date
-	And I enter "10:30" in Operation End Time
+	And I enter "Blue Star" in Operation Name field
+	And I enter "01/01/2019 " in Operation Start Date field
+	And I enter "12:00" in Operation Start Time field
+	And I enter "31/01/2019" in Operation End Date field
+	And I enter "10:30" in Operation End Time field
 	And click on "Save & Return" button
 	Then the Record should Save and displayed in the grid
 
        
-         
+Scenario:  Start date is greater than the System date 
+
+ 
+    Given user is on Operation card selection form
+	And It will display "Are there any Operation " involved as "No,card not required" and "Yes,card is required" button
+	And I click on "Yes,card is required" button
+	When I enter "Blue Star" as "Operation Name"
+	And click on "Next" button
+	And click on the desired search result 
+	And the Operation Template should be displayed in Read only mode
+	And click on  "This is the Operation " button
+	And the focus will be on the Object Editor form Tab  "Basic Details" of Operation
+	And I enter "Blue Star" in Operation Name field
+	And I enter "01/01/2019 " in Operation Start Date field
+	And I enter "12:00" in Operation Start Time field
+	And I enter "31/01/2019" in Operation End Date field
+	And I enter "10:30" in Operation End Time field
+	And click on "Save & Return" button
+	Then I should get the message "Operation Start Date should not be greater than the Current date"
 	
-Scenario: Add data in Basic details and   Future Detail Tab
+	
+	# Operation Start date is Greater than End date
+	
+    Given user is on Operation card form
+    When user enter "02/01/2019 " in Operation Start Date field
+	And I enter "12:00" in Operation Start Time field
+	And I enter "01/01/2019" in Operation End Date field
+	And I enter "10:30" in Operation End Time field
+	Then I should get the message "Operation Start Date should not be greater than the Operation End Date"
+	
+	
+# Operation End  date is Greater than Start date
+	
+    Given user is on Operation card form
+    When user enter "01/01/2019 " in Operation Start Date field
+	And I enter "12:00" in Operation Start Time field
+	And I enter "31/12/2019" in Operation End Date field
+	And I enter "10:30" in Operation End Time field
+	Then I should get the message "Operation Start Date should not be greater than the Operation End Date"
+	
+	
+Scenario: Adding  data in Basic details and   Future Detail Tab
+	
+	Given user is on Operation card selection form 
+	And It will display "Are there any Operation " involved as "No,card not required" and "Yes,card is required" button
+	And I click on "Yes,card is required" button
+	When I enter "Blue Star" as "Operation Name"
+	And click on "Next" button
+	And click on the desired search result 
+	And the Operation Template should be displayed in Read only mode
+	And click on  "This is the Operation " button 
+	And the focus will be on the Object Editor form Tab  "Basic Details" of Operation
+	And click on "Baisc Details" tab
+	And I enter "Blue Star" in Operation Name field
+	And I enter "01/01/2019 " in Operation Start Date field
+	And I enter "12:00" in Operation Start Time field
+	And I enter "31/01/2019" in Operation End Date field
+	And I enter "10:30" in Operation End Time field
+	And click on "Furture Details" tab
+	And I enter "Operation 1" in Operation Description field
+	And I select "Operation" in Type field
+	And I select "223" in Owning Force ID field
+	And I select "Department Investigation" in Owning Department field
+	And I select "Classification" in GPMS Classification field
+	And I select "CSI" in GPMS Descriptor field
+	And click on "Save & Return" button
+	Then the record should Save and displayed in the Grid as Operation card
+
+Scenario: Adding Special char data in Basic details and   Future Detail Tab
 	
 	Given user is on Operation card selection form 
 	And It will display "Are there any Operation " involved as "No,card not required" and "Yes,card is required" button
@@ -130,20 +196,21 @@ Scenario: Add data in Basic details and   Future Detail Tab
 	And click on  "This is the Operation " button
 	And the focus will be on the Object Editor form Tab  "Basic Details" of Operation
 	And click on "Baisc Details" tab
-	And I enter "Blue Star" in Operation Name
-	And I enter "01/01/2019 " in Operation Start Date
-	And I enter "12:00" in Operation Start Time
-	And I enter "31/01/2019" in Operation End Date
-	And I enter "10:30" in Operation End Time
-	And click on "Furture Details" tab
-	And I enter "Operation 1" in Operation Description
-	And I select "Operation" in Type
-	And I select "223" in Owning Force ID
-	And I select "Department Investigation" in Owning Department
-	And I select "Classification" in GPMS Classification
-	And I select "CSI" in GPMS Descriptor
+	And I enter "!~@#$%^'" in Operation Name field
+	And I enter "01/01/2019 " in Operation Start Date field
+	And I enter "12:00" in Operation Start Time field
+	And I enter "31/01/2019" in Operation End Date field
+	And I enter "10:30" in Operation End Time field
+	And click on "Furture Details" tab 
+	And I enter "!~@#$%^'" in Operation Description field
+	And I select "Operation" in Type field
+	And I select "223" in Owning Force ID field
+	And I select "Department Investigation" in Owning Department field
+	And I select "Classification" in GPMS Classification field
+	And I select "CSI" in GPMS Descriptor field
 	And click on "Save & Return" button
 	Then the record should Save and displayed in the Grid as Operation card
+
 	
 	 
 Scenario: "This is not the Operation " button
@@ -187,18 +254,18 @@ Scenario: Edit of the Card
     Given user is on the Operation card grid
     And click on saved Operation Card which is displayed in the grid
 	And click on "Baisc Details" tab
-	When I update "Blue Star" in Operation Name
-	And I update "01/01/2019 " in Operation Start Date
-	And I update "12:00" in Operation Start Time
-	And I update "31/01/2019" in Operation End Date
-	And I update "10:30" in Operation End Time
+	When I update "Blue Star" in Operation Name field
+	And I update "01/01/2019 " in Operation Start Date field
+	And I update "12:00" in Operation Start Time field
+	And I update "31/01/2019" in Operation End Date field
+	And I update "10:30" in Operation End Time field
 	And click on "Furture Details" tab
-	And I update "Operation 1" in Operation Description
-	And I update select "Operation" in Type
-	And I update select "223" in Owning Force ID
-	And I update select "Department Investigation" in Owning Department
-	And I update select "Classification" in GPMS Classification
-	And I update select "CSI" in GPMS Descriptor
+	And I update "Operation 1" in Operation Description field
+	And I update select "Operation" in Type field
+	And I update select "223" in Owning Force ID field
+	And I update select "Department Investigation" in Owning Department field
+	And I update select "Classification" in GPMS Classification field
+	And I update select "CSI" in GPMS Descriptor field
 	And click on "Save & Return" button
 	Then the record should Save and displayed in the Grid as Operation card
     	
@@ -225,11 +292,11 @@ Scenario: Deletion of the card with added details
 	And the Operation Template should be displayed in Read only mode
 	And click on  "This is the Operation " button
 	And the focus will be on the Object Editor form Tab  "Basic Details" of Operation
-	When I update "Blue Star" in Operation Name
-	And I update "01/01/2019 " in Operation Start Date
-	And I update "12:00" in Operation Start Time
-	And I update "31/01/2019" in Operation End Date
-	And I update "10:30" in Operation End Time
+	When I update "Blue Star" in Operation Name field
+	And I update "01/01/2019 " in Operation Start Date field
+	And I update "12:00" in Operation Start Time field
+	And I update "31/01/2019" in Operation End Date field
+	And I update "10:30" in Operation End Time field
 	And click on "Save & Return" button
 	And the Record should Save and displayed in the grid
 	And click on "Card not Required" button 

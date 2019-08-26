@@ -66,7 +66,24 @@ Scenario: Create an Forensic Investigation record by adding data in Basic detail
 	Then the record should save and focus should be on the Main form
 	
 	
-	
+Scenario: Adding more data length in the text feild
+
+Given user is on "Basic details" card
+	When I enter characters more than "56" in "Crimeno" field
+	And I enter characters more than "56" in "Incident log" field	
+	And I Select "Murder" in  "Offence" field
+	And I Select "CSI" in "OIC" field 
+	And I Select "Force" in "Force" field
+	And I Select "John" in "Crime Scene Coordinator" field
+	And I Select "01/02/2019" in "Offence Date Start" field
+	And I Select "12:00" in "Offence Time Start" field
+	And I Select "01/02/2019" in "Offence Date End" field
+	And I Select "12:00" in "Offence Time End" field
+	And I enter "Summary data" in "Incident Summary" field
+	And I Select "High" in  "Priority" field
+	And  "Socrates Case Reference" number displayed if present in Socrates
+	And click on Save & Return button
+	Then the record should save and focus should be on the Main form
 	
 #Scenario 3
 
