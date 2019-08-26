@@ -638,7 +638,7 @@ Scenario: Click on Cross icon of the Popup message
 	Then I should get a Warning Popup "Are you Sure you want to Remove the Victim "
 	And I should view two button "No , Cancel "and "Yes,Remove"
 	And click on "cross" icon
-	And the Popup should get close and the focus should be on Victim Object Editor form
+	And the Popup should get close and the focus should be on Victim Object Editor form 
 	
 	
 		

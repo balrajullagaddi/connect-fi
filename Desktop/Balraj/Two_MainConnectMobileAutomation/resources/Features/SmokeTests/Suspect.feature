@@ -559,7 +559,7 @@ Scenario: Click on Cross icon of the Popup message
 	Then I should get a Warning Popup "Are you Sure you want to Remove the Suspect "
 	And I should view two button "No , Cancel "and "Yes,Remove"
 	And click on "cross" icon
-	And the Popup should get close and the focus should be on Suspect Object Editor form
+	And the Popup should get close and the focus should be on Suspect Object Editor form 
 	
 	
 		

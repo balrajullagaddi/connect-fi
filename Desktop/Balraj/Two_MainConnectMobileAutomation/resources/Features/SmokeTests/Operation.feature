@@ -9,7 +9,7 @@ Background: User is logging into the Forensic Investigation system
 #Scenario 1
 @run @REGQA1 @DEVINT2 @REGQA2 @FUNCQA1 @TestCaseKey=CCI-T55791
 Scenario:  User  click on Operation card and than by  Searching the Operation Card , 
-          adding the Operation Object Basic  details 
+          adding the Operation Object Basic  details  
 	
 	Given user is on "Operation" card
 	And It will display "Are there any Operation " involved as "No,card not required" and "Yes,card is required" button

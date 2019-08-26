@@ -420,7 +420,7 @@ Scenario: Cancel button
 	And the A Warning message popup should be displayed "Are you Sure you want to Remove the Location"
 	And  "No, Cancel" and "Yes,Remove" button are displayed
 	And click on "Yes,Remove" button
-	Then the displayed record will be deleted
+	Then the displayed record will be deleted 
 	
  
 	 

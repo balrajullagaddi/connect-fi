@@ -4,7 +4,7 @@ Feature: Other Location CF-6
 Background: User is logging into the Forensic Investigation system
 
     Given user is on Card Index screen for a 'Create intelligence report' 
-	When user clicks on "Other Location" card with Link Reason "" 
+	When user clicks on "Other Location" card with Link Reason ""  
 
 
 #Scenario 1
