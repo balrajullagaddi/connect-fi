@@ -105,34 +105,34 @@ Scenario: Add data in Vehicle Basic details,  Future Detail Tab and Examination 
 	And click on  "This is the Vehicle " button
 	And the focus will be on the Object Editor form Tab  "Basic Details" of Vehicle
 	And click on "Basic details" tab
-	When I select "Full" as VRM Type
-	And I enter " 2002-21-0063" in VRM
-	And I select "2011" in Make
-	And I select "i10" in Model
-	And I enter "234" in Chassis Number
-	And I select "Yes" in Examination Required?
+	When I select "Full" as VRM Type field
+	And I enter " 2002-21-0063" in VRM field
+	And I select "2011" in Make field
+	And I select "i10" in Model field
+	And I enter "234" in Chassis Number field
+	And I select "Yes" in Examination Required? 
 	And click on "Future Details" tab
 	And I select "Four wheeler" in Category
-	And I select "Car" in Type
-	And I select  "White" in Colour 1
-	And I select  "White" in Colour 2
-	And I enter "4889" in Engine Number
-	And I enter "1.9" in Cubic Capacity
-	And I select "Petrol" in Fuel Type
-	And I select "2011" in Year Of Manufacturer
-	And I eneter "details added" in Notes
-	And I select "Yes" in Foreign Vehicle
-	And I select "United Kingdom" in Country Of Registration
-	And click on "Examination Address" Tab
-	And I enter "Car Park" in Location Type
-	And I enter "8988" in Number
-	And I enter "Hill Town" in Premises Name
-	And I enter "Bridgelon" in Flat
-	And I enter "Bridgetone lane" in Address Line 1
-	And I enter " lane 4" in Address Line 2
-	And I enter "London" in Town
-	And I enter " SW1A 2AA " in Postcode
-	And I enter " UK " in County
+	And I select "Car" in Type field
+	And I select  "White" in Colour 1 field
+	And I select  "White" in Colour 2 field
+	And I enter "4889" in Engine Number field
+	And I enter "1.9" in Cubic Capacity field
+	And I select "Petrol" in Fuel Type field
+	And I select "2011" in Year Of Manufacturer field
+	And I enter "details added" in Notes field
+	And I select "Yes" in Foreign Vehicle field
+	And I select "United Kingdom" in Country Of Registration field
+	And click on "Examination Address" Tab 
+	And I enter "Car Park" in Location Type field
+	And I enter "8988" in Number field
+	And I enter "Hill Town" in Premises Name field
+	And I enter "Bridgelon" in Flat field
+	And I enter "Bridgetone lane" in Address Line 1 field
+	And I enter " lane 4" in Address Line 2 field
+	And I enter "London" in Town field
+	And I enter " SW1A 2AA " in Postcode field
+	And I enter " UK " in County field
 	And click on "Save & Return" button
 	Then the record should Save and displayed in the Grid as Vehicle card
 	
@@ -151,35 +151,36 @@ Scenario: Add data in Vehicle Basic details,  Future Detail Tab and Examination 
 	And click on  "This is the Vehicle " button
 	And the focus will be on the Object Editor form Tab  "Basic Details" of Vehicle
 	And click on "Basic details" tab
-	When I select "Full" as VRM Type
-	And I enter " 2002-21-0063" in VRM
-	And I select "2011" in Make
-	And I select "i10" in Model
-	And I enter "234" in Chassis Number
+	When I select "Full" as VRM Type field
+	And I enter " 2002-21-0063" in VRM field
+	And I select "2011" in Make field
+	And I select "i10" in Model field
+	And I enter "234" in Chassis Number field
 	And I select "No" in Examination Required?
-	And click on "Future Details" tab
-	And I select "Four wheeler" in Category
-	And I select "Car" in Type
-	And I select  "White" in Colour 1
-	And I select  "White" in Colour 2
-	And I enter "4889" in Engine Number
-	And I enter "1.9" in Cubic Capacity
-	And I select "Petrol" in Fuel Type
-	And I select "2011" in Year Of Manufacturer
-	And I eneter "details added" in Notes
-	And I select "No" in Foreign Vehicle
-	And click on "Examination Address" Tab
-	And I enter "Car Park" in Location Type
-	And I enter "8988" in Number
-	And I enter "Hill Town" in Premises Name
-	And I enter "Bridgelon" in Flat
-	And I enter "Bridgetone lane" in Address Line 1
-	And I enter " lane 4" in Address Line 2
-	And I enter "London" in Town
-	And I enter " SW1A 2AA " in Postcode
-	And I enter " UK " in County
+	And click on "Future Details" tab 
+	And I select "Four wheeler" in Category field
+	And I select "Car" in Type field
+	And I select  "White" in Colour 1 field
+	And I select  "White" in Colour 2 field
+	And I enter "4889" in Engine Number field
+	And I enter "1.9" in Cubic Capacity field
+	And I select "Petrol" in Fuel Type field
+	And I select "2011" in Year Of Manufacturer field
+	And I eneter "details added" in Notes field
+	And I select "No" in Foreign Vehicle field
+	And click on "Examination Address" Tab 
+	And I enter "Car Park" in Location Type field
+	And I enter "8988" in Number field
+	And I enter "Hill Town" in Premises Name field
+	And I enter "Bridgelon" in Flat field
+	And I enter "Bridgetone lane" in Address Line 1 field
+	And I enter " lane 4" in Address Line 2 field
+	And I enter "London" in Town field
+	And I enter " SW1A 2AA " in Postcode field
+	And I enter " UK " in County field
 	And click on "Save & Return" button
 	Then the record should Save and displayed in the Grid as Vehicle card
+
 
 # Add new Vehicle
 
@@ -193,14 +194,101 @@ Scenario: Add data in Vehicle Basic details,  Future Detail Tab and Examination 
 	And click on  "This is the Victim " button
 	And the focus will be on the Object Editor form Tab  "Basic Details" of victim
 	And click on "Basic details" tab
-	When I select "Full" as VRM Type
-	And I enter " 2002-21-0063" in VRM
-	And I select "2011" in Make
-	And I select "i10" in Model
-	And I enter "234" in Chassis Number
+	When I select "Full" as VRM Type field
+	And I enter " 2002-21-0063" in VRM field
+	And I select "2011" in Make field
+	And I select "i10" in Model field
+	And I enter "234" in Chassis Number field
 	And I select "No" in Examination Required?
 	And click on "Save & Return" button
 	Then the Record should Save and displayed in the grid
+
+Scenario: Adding Special char
+
+    Given user is on Vehicle card selection form 
+	And It will display "Are there any Vehicle " involved as "No,card not required" and "Yes,card is required" button
+	And I click on "Yes,card is required" button
+	When I select "Full" as "VRM Type"
+	And I enter "2002-21-0063" as "VRM"
+	And click on "Next" button
+	And click on the desired search result 
+	And the Vehicle Template should be displayed in Read only mode
+	And click on  "This is the Vehicle " button
+	And the focus will be on the Object Editor form Tab  "Basic Details" of Vehicle
+	And click on "Basic details" tab
+	When I select "Full" as VRM Type field
+	And I enter "!@#$%^&'" in VRM field
+	And I select "2011" in Make field
+	And I select "i10" in Model field
+	And I enter "!@#$%^&'" in Chassis Number field
+	And I select "No" in Examination Required?
+	And click on "Future Details" tab 
+	And I select "Four wheeler" in Category field
+	And I select "Car" in Type field
+	And I select  "White" in Colour 1 field
+	And I select  "White" in Colour 2 field
+	And I enter "!@#$%^&'" in Engine Number field
+	And I enter "!@#$%^&'" in Cubic Capacity field
+	And I select "Petrol" in Fuel Type field
+	And I select "2011" in Year Of Manufacturer field
+	And I eneter "details added" in Notes field
+	And I select "No" in Foreign Vehicle field
+	And click on "Examination Address" Tab 
+	And I enter "Car Park" in Location Type field
+	And I enter "!@#$%^&'" in Number field
+	And I enter "!@#$%^&'" in Premises Name field
+	And I enter "!@#$%^&'" in Flat field
+	And I enter "!@#$%^&'" in Address Line 1 field
+	And I enter "!@#$%^&'" in Address Line 2 field
+	And I enter "!@#$%^&'" in Town field
+	And I enter "!@#$%^&'" in Postcode field
+	And I enter "!@#$%^&'" in County field
+	And click on "Save & Return" button
+	Then the record should Save and displayed in the Grid as Vehicle card
+	
+Scenario: Adding Data length 
+
+Given user is on Vehicle card selection form 
+	And It will display "Are there any Vehicle " involved as "No,card not required" and "Yes,card is required" button
+	And I click on "Yes,card is required" button
+	When I select "Full" as "VRM Type"
+	And I enter "2002-21-0063" as "VRM"
+	And click on "Next" button
+	And click on the desired search result 
+	And the Vehicle Template should be displayed in Read only mode
+	And click on  "This is the Vehicle " button
+	And the focus will be on the Object Editor form Tab  "Basic Details" of Vehicle
+	And click on "Basic details" tab
+	When I select "Full" as VRM Type field
+	And I enter characters more than "20" in VRM field
+	And I select "2011" in Make field
+	And I select "i10" in Model field
+	And I enter characters more than "20" in Chassis Number field
+	And I select "No" in Examination Required?
+	And click on "Future Details" tab 
+	And I select "Four wheeler" in Category field
+	And I select "Car" in Type field
+	And I select  "White" in Colour 1 field
+	And I select  "White" in Colour 2 field
+	And I enter characters more than "20" in Engine Number field
+	And I enter characters more than "20" in Cubic Capacity field
+	And I select "Petrol" in Fuel Type field
+	And I select "2011" in Year Of Manufacturer field
+	And I eneter "details added" in Notes field
+	And I select "No" in Foreign Vehicle field
+	And click on "Examination Address" Tab 
+	And I enter "Car Park" in Location Type field
+	And I enter characters more than "100" in Number field
+	And I enter characters more than "100" in Premises Name field
+	And I enter characters more than "100" in Flat field
+	And I enter characters more than "100" in Address Line 1 field
+	And I enter characters more than "100" in Address Line 2 field
+	And I enter characters more than "100" in Town field
+	And I enter characters more than "8" in Postcode field
+	And I enter characters more than "100" in County field
+	And click on "Save & Return" button
+	Then the record should Save and displayed in the Grid as Vehicle card
+
 
 	 
 Scenario: Funtionality of "This is not the Location " button
@@ -247,34 +335,34 @@ Scenario: Funtionality of Edit
     Given user is on the Vehicle card grid
     And click on saved Vehicle Card which is displayed in the grid
 	And click on "Basic details" tab
-	When I  update select "Partial" as VRM Type
-	And I update " 2002-21-0064" in VRM
-	And I  update select "20121" in Make
-	And I update select "i10 sportz" in Model
-	And I update "234" in Chassis Number
+	When I  update select "Partial" as VRM Type field
+	And I update " 2002-21-0064" in VRM field
+	And I  update select "20121" in Make field
+	And I update select "i10 sportz" in Model field
+	And I update "234" in Chassis Number field
 	And I update select "Yes" in Examination Required?
 	And click on "Future Details" tab
-	And I update select "Four wheeler" in Category
-	And I update select "SUV" in Type
-	And I update select  "White" in Colour 1
-	And I update select  "Green" in Colour 2
-	And I update "4883" in Engine Number
-	And I update "1.4" in Cubic Capacity
-	And I update select "Desiel" in Fuel Type
-	And I update select "2010" in Year Of Manufacturer
-	And I update "details added 1" in Notes
-	And I update select "Yes" in Foreign Vehicle
-	And I update select "United Kingdom" in Country Of Registration
-	And click on "Examination Address" Tab
-	And I update "Car Park avenue" in Location Type
-	And I update "8988" in Number
-	And I update "Hill way" in Premises Name
-	And I update "Bridgestone" in Flat
-	And I update "Bridgetone road" in Address Line 1
-	And I update " lane 6" in Address Line 2
-	And I update "London" in Town
-	And I update " SW1A 2AB " in Postcode
-	And I update " UK " in County
+	And I update select "Four wheeler" in Category field
+	And I update select "SUV" in Type field
+	And I update select  "White" in Colour 1 field
+	And I update select  "Green" in Colour 2 field
+	And I update "4883" in Engine Number field
+	And I update "1.4" in Cubic Capacity field
+	And I update select "Desiel" in Fuel Type field
+	And I update select "2010" in Year Of Manufacturer field
+	And I update "details added 1" in Notes field
+	And I update select "Yes" in Foreign Vehicle field
+	And I update select "United Kingdom" in Country Of Registration field
+	And click on "Examination Address" Tab 
+	And I update "Car Park avenue" in Location Type field
+	And I update "8988" in Number field
+	And I update "Hill way" in Premises Name field
+	And I update "Bridgestone" in Flat field
+	And I update "Bridgetone road" in Address Line 1 field
+	And I update " lane 6" in Address Line 2 field
+	And I update "London" in Town field
+	And I update " SW1A 2AB " in Postcode field
+	And I update " UK " in County field
 	And click on "Save & Return" button
 	Then the record should Save and displayed in the Grid as Vehicle card
     	
@@ -304,11 +392,11 @@ Scenario: Deletion of the card with added details
 	And click on  "This is the Vehicle " button
 	And the focus will be on the Object Editor form Tab  "Basic Details" of Vehicle
 	And click on "Basic details" tab
-	When I select "Full" as VRM Type
-	And I enter " 2002-21-0063" in VRM
-	And I select "2011" in Make
-	And I select "i10" in Model
-	And I enter "234" in Chassis Number
+	When I select "Full" as VRM Type field
+	And I enter " 2002-21-0063" in VRM field
+	And I select "2011" in Make field
+	And I select "i10" in Model field
+	And I enter "234" in Chassis Number field
 	And I select "No" in Examination Required?
 	And click on "Save & Return" button
 	And the Record should Save and displayed in the grid
