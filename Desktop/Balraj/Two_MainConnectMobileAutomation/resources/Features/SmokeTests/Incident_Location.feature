@@ -23,7 +23,7 @@ Scenario: User should be able to map the Incident Location to the New Forensic I
 	And It will display "Are there any Location " involved as "No,card not required" and "Yes,card is required" button
 	When I click on "Yes,card is required" button
 	When I enter "United Kingdom" as "Location type"
-	And I enter "UK129" as "Number"
+	And I enter "WC2N 5DU" as "Number"
 	And the Object Basic Details form of Incident Location is displayed
 	And click on the desired search result 
 	And the Incident Location Template should be displayed in Read only mode
@@ -33,7 +33,7 @@ Scenario: User should be able to map the Incident Location to the New Forensic I
 	And I enter "3456" in Number
 	And I enter "Hill Road " in Premises Name
 	And I enter "Heritage" in Flat
-	And I enter "Address 1" in Address Line 1
+	And I enter "A4, London" in Address Line 1
 	And I enter "Address 2" in Address Line 2
 	And I enter "Liverpool" in Town
 	And I enter "SW15 5PU" in Postcode
@@ -88,6 +88,26 @@ Scenario: Search Creteria for Location type , Number and  Address Line 1
 	And I enter "1 Hamstrang street" as "Address Line 1"
 	And click on "Next" button
 	Then I should get the data searched against pole database and displayed 
+	
+
+Scenario: Verifying Blank data in Object editor for Basic details
+
+
+    Given user is on Incident Location card selection form 
+	And It will display "Are there any Location " involved as "No,card not required" and "Yes,card is required" button
+	And I click on "Yes,card is required" button
+	When I enter "United Kingdom" as "Location type"
+	And I enter "UK129" as "Number"
+	And I enter "1 Hamstrang street" as "Address Line 1"
+	And click on "Next" button
+	And I should get the data searched against pole database and displayed
+	And click on the displayed record
+	And the object editor for Basic details should be displayed
+	And clear the "Location tyoe"
+	And clear the "Number"
+	And click on "Save & Return" button
+	Then I should get the message "Please enter Location type"
+	And I should get message "Please enter Number"
 	
 Scenario: Search Creteria for Location type , Name  and  Address Line 1
 	

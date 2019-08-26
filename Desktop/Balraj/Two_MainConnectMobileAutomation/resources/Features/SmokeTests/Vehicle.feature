@@ -28,7 +28,14 @@ Scenario: Search functionality for  VRM Type and VRM
 	When I enter "Full" as "VRM Type"
 	And I select " 2002-21-0063" as "VRM"
 	And click on "Next" button
-	Then I should get the data searched against pole database and displayed 
+	And I should get the data searched against pole database and displayed
+	And click on the displayed record
+	And the object editor for Basic details should be displayed
+	And clear the "VRM Type"
+	And clear the "VRM"
+	And click on "Save & Return" button
+	Then I should get the message "Please enter VRM Type"
+	And I should get message "Please enter VRM"
 	
 Scenario: Search functionality for  Make and Model
 

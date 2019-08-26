@@ -22,13 +22,20 @@ Scenario:  User  click on Victim card and than by  Searching the Victim Card ,
 	When I click on "Yes,card is required" button
 	Then the Object Basic Details search  form of Victim is displayed
 	
-Scenario: Search for Surname and Gender
+Scenario: Search for Surname and Gender and Mandatory feild checked on Object editor form
 
 	Given user is on the Object Basic Details search form of Victim
 	When I enter "Rohan" as "Surname"
 	And I select "Male" as "Gender"
 	And click on "Next" button
-	Then I should get the data searched against pole database and displayed 
+	And I should get the data searched against pole database and displayed
+	And click on the displayed record
+	And the object editor for Basic details should be displayed
+	And clear the "Surname"
+	And clear the "Gender"
+	And click on "Save & Return" button
+	Then I should get the message "Please enter Surname"
+	And I should get message "Please enter Gender"
 
 Scenario: Search for Forename 1 and Gender
 
@@ -42,7 +49,7 @@ Scenario: Search for Forename 1 and Gender
 Scenario: Checking for Mandatory feild
 	
     Given user is on "Victim" card
-	And It will display "Are there any Location " involved as "No,card not required" and "Yes,card is required" button
+	And It will display "Are there any Victim " involved as "No,card not required" and "Yes,card is required" button
 	When I click on "Yes,card is required" button
 	And I click on "Next" Button
 	Then it should display message "Minimum data requirement not meet" 
@@ -126,7 +133,6 @@ Scenario:  Unknown Victim = "No" , Date of Birth selection
 	And I enter "22333393" in Landline
 	And I enter "john@yahoo.com" in Email
 	And I click "Yes" in Examination Required?
-	And I click "Yes" in Examination Required?
 	And I click "Yes" as Is Examination Address same as Home Address?
 	And click on "Save & Return" button
 	Then the Record should Save and displayed in the grid
@@ -186,7 +192,6 @@ Scenario:  Validation for Date of Birth if added as Future date
 	And I enter "22333393" in Landline
 	And I enter "john@yahoo.com" in Email
 	And I click "Yes" in Examination Required?
-	And I click "Yes" in Examination Required?
 	And I click "Yes" as Is Examination Address same as Home Address?
 	And click on "Save & Return" button
 	Then I should get the validation message "Date of Birth cannot be of Future"
@@ -238,7 +243,6 @@ Scenario: Validation for CRO Number
 	And I enter "9820000000" in Mobile
 	And I enter "22333393" in Landline
 	And I enter "john@yahoo.com" in Email
-	And I click "Yes" in Examination Required?
 	And I click "Yes" in Examination Required?
 	And I click "Yes" as Is Examination Address same as Home Address?
 	And click on "Save & Return" button
@@ -373,7 +377,7 @@ Scenario: Add data in  Future Detail Tab, Home Address and Examination Address
 	Then the record should Save and displayed in the Grid as Victim card
 	
 	 
-Scenario: "This is not the Location " button
+Scenario: "This is not the Victim " button
 	 
 	Given user is on Victim card selection form 
 	And It will display "Are there any Victim " involved as "No,card not required" and "Yes,card is required" button
@@ -384,7 +388,7 @@ Scenario: "This is not the Location " button
 	And click on the desired search result 
 	And the Victim Template should be displayed in Read only mode
 	And click on  "This is not the Victim " button
-	Then the Focus goes back on the Victim location search form
+	Then the Focus goes back on the Victim search form
 	 
 Scenario:  "None of these  people are Victim" Button click 
 	 
