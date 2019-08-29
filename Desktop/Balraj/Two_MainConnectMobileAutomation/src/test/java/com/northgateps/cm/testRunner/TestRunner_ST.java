@@ -24,9 +24,9 @@ import cucumber.api.SnippetType;
 				 dryRun = false,
 				 tags = {"@DEVINT2"},
 				 features = {
-						 "resources/Features/SmokeTests/Basicdetails.feature",
+						 //"resources/Features/SmokeTests/Basicdetails.feature",
 						 //"resources/Features/SmokeTests/Source.feature",
-						 //"resources/Features/SmokeTests/Location.feature",
+						 "resources/Features/SmokeTests/Location.feature",
 						 //"resources/Features/SmokeTests/Vehicle.feature",
 						 //"resources/Features/SmokeTests/Person.feature",
 						// "resources/Features/SmokeTests/Incident_Location.feature",

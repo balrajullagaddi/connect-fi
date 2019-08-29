@@ -14,7 +14,7 @@ Scenario:  User  click on Suspect card and than by  Searching the Suspect Card ,
 	Given user is on "Suspect" card
 	And It will display "Are there any Suspect " involved as "No,card not required" and "Yes,card is required" button
 	When I click on "No,card not required" button
-	Then the focus should be on the Main page
+	Then the focus should be on the 'Dashboard page'
 	
 	
 	Given user is on "Suspect" card
@@ -69,14 +69,15 @@ Scenario:  For  "Card Not Required" button
 	And I enter "Raha" as "Surname"
 	And I select "Male" as "Gender"
 	And click on "Card Not Required" button
-	Then the Card should be deleted and focus should be on the Main page
+	Then the Card should be deleted 
+	And focus should be on the 'Dashboard page'
 	
 	
     Given user is on Suspect card selection form
 	And It will display "Are there any Suspect " involved as "No,card not required" and "Yes,card is required" button
 	When I click on "Yes,card is required" button
 	And I click on "Index" button
-	Then the focus should be on the Main page
+	Then the focus should be on the 'Dashboard page'
 	
 	
 	
@@ -116,7 +117,8 @@ Scenario:  Entering Date of birth
 	And I enter "andrewe@yahoo.com" in Email field
 	And I click "Yes" in Examination Required?
 	And click on "Save & Return" button
-	Then the Record should Save and displayed in the grid
+	Then the Record should Save 
+	And displayed in the grid as Suspect card
 
 #  Age from and Age to and Add New Suspect
 
@@ -143,7 +145,8 @@ Scenario:  Entering Date of birth
 	And I enter "john@yahoo.com" in Email field
 	And I click "No" in Examination Required?
 	And click on "Save & Return" button
-	Then the Record should Save and displayed in the grid
+	Then the Record should Save 
+	And displayed in the grid as Suspect card
 
 	
 Scenario:  Validation for Date of Birth if added as Future date 
@@ -335,7 +338,8 @@ Scenario: Adding  data in  Future Detail Tab, Home Address and Examination Addre
 	And I enter " SW1A 2AA " in Postcode field
 	And I enter " UK " in County field
 	And click on "Save & Return" button
-	Then the record should Save and displayed in the Grid as Suspect card
+	Then the record should Save 
+	And displayed in the Grid as Suspect card
 
 
 Scenario: Adding Special char  in  Future Detail Tab, Home Address and Examination Address
@@ -372,7 +376,8 @@ Scenario: Adding Special char  in  Future Detail Tab, Home Address and Examinati
 	And I enter "!~@#$%^'" in Postcode field
 	And I enter "!~@#$%^'" in County field
 	And click on "Save & Return" button
-	Then the record should Save and displayed in the Grid as Suspect card
+	Then the record should Save 
+	And displayed in the Grid as Suspect card
 	
 
 Scenario: Adding more data in the Text box
@@ -409,7 +414,8 @@ Given user is on Suspect card selection form
 	And I enter characters more than "8" in Postcode field
 	And I enter characters more than "100" in County field
 	And click on "Save & Return" button
-	Then the record should Save and displayed in the Grid as Suspect card
+	Then the record should Save 
+	And displayed in the Grid as Suspect card
 
 	 
 Scenario: "This is not the Suspect " button
@@ -476,7 +482,8 @@ Scenario: Edit of the Card
 	And I update " SW1A 2AC " in Postcode field
 	And I update " UK " in County field
 	And click on "Save & Return" button
-	Then the record should Save and displayed in the Grid as Suspect card
+	Then the record should Save 
+	And displayed in the Grid as Suspect card
     	
 	# Deleting the Suspect card
 	
@@ -489,7 +496,8 @@ Scenario: Deletion of the Card
 	And I enter "Ravi" as "Surname"
     And I select "Male" as "Gender"
 	And click on "Card not Required" button
-	Then Card details should get Deleted and the focus should go on the Main form
+	Then Card details should get Deleted 
+	And the focus should go on the 'Dashboard form' 
 	
 Scenario: Deletion of the card with added details	
 	

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="1778" started-at="2019-08-23T10:21:31Z" finished-at="2019-08-23T10:21:33Z">
+  <suite name="Suite" duration-ms="133264" started-at="2019-08-28T08:08:48Z" finished-at="2019-08-28T08:11:01Z">
     <groups>
       <group name="cucumber">
         <method signature="CustomAbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.northgateps.cm.testRunner.TestRunner_ST@3dd4520b]" name="feature" class="com.northgateps.cm.platform.api.CustomAbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="1778" started-at="2019-08-23T10:21:31Z" finished-at="2019-08-23T10:21:33Z">
+    <test name="Test" duration-ms="133264" started-at="2019-08-28T08:08:48Z" finished-at="2019-08-28T08:11:01Z">
       <class name="com.northgateps.cm.testRunner.TestRunner_ST">
-        <test-method status="PASS" signature="setUpClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.northgateps.cm.testRunner.TestRunner_ST@3dd4520b]" name="setUpClass" is-config="true" duration-ms="578" started-at="2019-08-23T15:51:31Z" finished-at="2019-08-23T15:51:32Z">
+        <test-method status="PASS" signature="setUpClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.northgateps.cm.testRunner.TestRunner_ST@3dd4520b]" name="setUpClass" is-config="true" duration-ms="676" started-at="2019-08-28T13:38:48Z" finished-at="2019-08-28T13:38:49Z">
           <params>
             <param index="0">
               <value>
@@ -31,26 +31,89 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.northgateps.cm.testRunner.TestRunner_ST@3dd4520b]" name="setUp" is-config="true" duration-ms="1" started-at="2019-08-23T15:51:32Z" finished-at="2019-08-23T15:51:32Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.northgateps.cm.testRunner.TestRunner_ST@3dd4520b]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-28T13:38:49Z" finished-at="2019-08-28T13:38:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.northgateps.cm.testRunner.TestRunner_ST@3dd4520b]" name="feature" duration-ms="753" started-at="2019-08-23T15:51:32Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-08-23T15:51:32Z">
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.northgateps.cm.testRunner.TestRunner_ST@3dd4520b]" name="feature" duration-ms="131989" started-at="2019-08-28T13:38:49Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-08-28T13:41:01Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Forensic Investigation Test CF-5]]>
+                <![CDATA[Forensic Investigation Unit test for Location]]>
               </value>
             </param>
           </params>
+          <exception class="cucumber.runtime.CucumberException">
+            <message>
+              <![CDATA[java.lang.AssertionError: Test Failed due to this exception : org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : }
+  (Session info: chrome=76.0.3809.132): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\BALRAJ~1.ULL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57912}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bfba172ee62ce60012173db960df46a9
+*** Element info: {Using=xpath, value=//table[@id='fontIcon_homeMessage']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[cucumber.runtime.CucumberException: java.lang.AssertionError: Test Failed due to this exception : org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : }
+  (Session info: chrome=76.0.3809.132): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\BALRAJ~1.ULL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57912}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bfba172ee62ce60012173db960df46a9
+*** Element info: {Using=xpath, value=//table[@id='fontIcon_homeMessage']}
+	at com.northgateps.cm.platform.api.CustomTestNGCucumberRunner.runCucumber(CustomTestNGCucumberRunner.java:112)
+	at com.northgateps.cm.platform.api.CustomAbstractTestNGCucumberTests.feature(CustomAbstractTestNGCucumberTests.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+Caused by: java.lang.AssertionError: Test Failed due to this exception : org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : }
+  (Session info: chrome=76.0.3809.132): 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUM-LAP-849', ip: '10.102.193.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\BALRAJ~1.ULL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57912}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bfba172ee62ce60012173db960df46a9
+*** Element info: {Using=xpath, value=//table[@id='fontIcon_homeMessage']}
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.northgateps.cm.platform.api.ConnectMobilePageHelper.CloseFailedTest(ConnectMobilePageHelper.java:1777)
+	at com.northgateps.cm.intel.WebMobileWrappers.IntelWebPageObject.CloseFailedTest(IntelWebPageObject.java:1537)
+	at com.northgateps.cm.intel.WebMobileWrappers.IntelWebMobileWrapper.CloseFailedTest(IntelWebMobileWrapper.java:402)
+	at com.northgateps.cm.intel.stepDefs.IntelFTS01.userIsOnCardIndexScreenForACreateGenericInvestigation(IntelFTS01.java:94)
+	at ?.Given User is on Card Index screen for a 'Create Generic Investigation'(resources/Features/SmokeTests/Location.feature:19)
+]]>
+            </full-stacktrace>
+          </exception> <!-- cucumber.runtime.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.northgateps.cm.testRunner.TestRunner_ST@3dd4520b]" name="tearDownClass" is-config="true" duration-ms="344" started-at="2019-08-23T15:51:32Z" finished-at="2019-08-23T15:51:33Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.northgateps.cm.testRunner.TestRunner_ST@3dd4520b]" name="tearDownClass" is-config="true" duration-ms="499" started-at="2019-08-28T13:41:01Z" finished-at="2019-08-28T13:41:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.northgateps.cm.testRunner.TestRunner_ST@3dd4520b]" name="generateReport" is-config="true" duration-ms="98" started-at="2019-08-23T15:51:33Z" finished-at="2019-08-23T15:51:33Z">
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.northgateps.cm.testRunner.TestRunner_ST@3dd4520b]" name="generateReport" is-config="true" duration-ms="137" started-at="2019-08-28T13:41:01Z" finished-at="2019-08-28T13:41:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->

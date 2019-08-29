@@ -15,7 +15,7 @@ Scenario: User should be able to map the Incident Location to the New Forensic I
 	Given user is on Incident Location card selection form 
 	And It will display "Are there any Location " involved as "No,card not required" and "Yes,card is required" button
 	When I click on "No,card not required" button
-	Then the focus should be on the Main page
+	Then the focus should be on the 'Dashboard page'
 	
 	# Examination Required is Yes
 	
@@ -40,7 +40,8 @@ Scenario: User should be able to map the Incident Location to the New Forensic I
 	And I enter "County 23" in County field
 	And I select "Yes" as Examination Required?
 	And click on "Save & Return" button
-	Then the Record should Save and displayed in the grid
+	Then the Record should Saved
+	And displayed in the grid
 	
 	
 Scenario: Adding Blank data 
@@ -153,7 +154,7 @@ Scenario: Search Creteria for Location type and Postcode
 	When I enter "United Kingdom" as "Location type"
 	And I enter "SW15 5PU" as "Postcode"
 	And click on "Card Not Required" button
-	Then the Card should be deleted and focus should be on the Main page
+	Then the Card should be deleted and focus should be on the 'Dashboard page'
 	
 	
 Scenario: Index button
@@ -162,7 +163,7 @@ Scenario: Index button
 	And It will display "Are there any Location " involved as "No,card not required" and "Yes,card is required" button
 	And I click on "Yes,card is required" button
 	When I click on "Index" button
-	Then the focus should be on the Main page
+	Then the focus should be on the 'Dashboard page'
 	    
 Scenario: Examination Required is No
 	
@@ -187,7 +188,8 @@ Scenario: Examination Required is No
 	And I enter "County 23" in County field
 	And I select "No" as Examination Required?
 	And click on "Save & Return" button
-	Then the Record should Save and displayed in the grid of Incident Location
+	Then the Record should Save 
+	And displayed in the grid of Incident Location
 	
 	
 Scenario: "Add new incident location" button
@@ -267,7 +269,8 @@ Scenario: No Search result
 	And I enter "County 23" in County field
 	And I select "No" as Examination Required?
 	And click on "Save & Return" button
-	Then the Record should Save and displayed in the grid of Incident Location
+	Then the Record should Save 
+	And displayed in the grid of Incident Location
 	
 Scenario:  Multiple Incident Location
 
@@ -397,7 +400,8 @@ Scenario: "Delete Incident Location "  button
 	And the A Warning message popup should be displayed "Are you Sure you want to Remove the Location"
 	And  "No, Cancel" and "Yes,Remove" button are displayed
 	And click on "No,Cancel" button
-	Then popup should get close and the Focus should be on the Incident Location Object Editor form
+	Then popup should get close 
+	And the Focus should be on the Incident Location Object Editor form
 	
 Scenario: Cancel button
 	
@@ -412,7 +416,8 @@ Scenario: Cancel button
 	And the A Warning message popup should be displayed "Are you Sure you want to Remove the Location"
 	And  "No, Cancel" and "Yes,Remove" button are displayed
 	And click on "cross" Icon of the popup
-	Then popup should get close and the Focus should be on the Incident Location Object Editor form
+	Then popup should get close 
+	And the Focus should be on the Incident Location Object Editor form
 	
 	
 	Given user is on Incident Location Object Editor form

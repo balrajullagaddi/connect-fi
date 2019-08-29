@@ -14,7 +14,7 @@ Scenario:  User  click on Victim card and than by  Searching the Victim Card ,
 	Given user is on "Victim" card
 	And It will display "Are there any Victim " involved as "No,card not required" and "Yes,card is required" button
 	When I click on "No,card not required" button
-	Then the focus should be on the Main page
+	Then the focus should be on the 'Dashboard page'
 	
 	
 	Given user is on "Victim" card
@@ -69,14 +69,14 @@ Scenario:  For  "Card Not Required" button
 	And I enter "Rohan" as "Surname"
 	And I select "Male" as "Gender"
 	And click on "Card Not Required" button
-	Then the Card should be deleted and focus should be on the Main page
+	Then the Card should be deleted and focus should be on the 'Dashboard page'
 	
 	
     Given user is on Victim card selection form
 	And It will display "Are there any Victim " involved as "No,card not required" and "Yes,card is required" button
 	When I click on "Yes,card is required" button
 	And I click on "Index" button
-	Then the focus should be on the Main page
+	Then the focus should be on the 'Dashboard page'
 	
 	
 	
@@ -135,7 +135,8 @@ Scenario:  Unknown Victim = "No" , Date of Birth selection
 	And I click "Yes" in Examination Required? 
 	And I click "Yes" as Is Examination Address same as Home Address?
 	And click on "Save & Return" button
-	Then the Record should Save and displayed in the grid
+	Then the Record should Save 
+	And displayed in the grid of Victim card
 
 # Unknown Victim = "Yes" and Age from and Age to and Add New Victim
 
@@ -164,7 +165,8 @@ Scenario:  Unknown Victim = "No" , Date of Birth selection
 	And I click "No" in Examination Required?
 	And I click "No" as Is Examination Address same as Home Address?
 	And click on "Save & Return" button
-	Then the Record should Save and displayed in the grid
+	Then the Record should Save 
+	And displayed in the grid of Victim card
 
 	
 Scenario:  Validation for Date of Birth if added as Future date 
@@ -373,7 +375,8 @@ Scenario: Adding  data in  Future Detail Tab, Home Address and Examination Addre
 	And I enter " SW1A 2AA " in Postcode field
 	And I enter " UK " in County field
 	And click on "Save & Return" button
-	Then the record should Save and displayed in the Grid as Victim card
+	Then the record should Save 
+	And displayed in the Grid as Victim card
 	
 Scenario: Adding  Special char  in  Future Detail Tab, Home Address and Examination Address
 	
@@ -423,7 +426,8 @@ Scenario: Adding  Special char  in  Future Detail Tab, Home Address and Examinat
 	And I enter "!~@#$%^' " in Postcode field
 	And I enter "!~@#$%^'" in County field
 	And click on "Save & Return" button
-	Then the record should Save and displayed in the Grid as Victim card
+	Then the record should Save 
+	And displayed in the Grid as Victim card
 
 
 Scenario: Adding more data length in text feild
@@ -474,7 +478,8 @@ Scenario: Adding more data length in text feild
 	And I enter characters more than "100" in Postcode field
 	And I enter characters more than "100" in County field
 	And click on "Save & Return" button
-	Then the record should Save and displayed in the Grid as Victim card
+	Then the record should Save 
+	And displayed in the Grid as Victim card
 
 	 
 Scenario: "This is not the Victim " button
@@ -553,7 +558,8 @@ Scenario: Edit of the Card
 	And I update " SW1A 2AC " in Postcode field
 	And I update " UK " in County field
 	And click on "Save & Return" button
-	Then the record should Save and displayed in the Grid as Victim card
+	Then the record should Save 
+	And displayed in the Grid as Victim card
     	
 	# Deleting the Victim card
 	
@@ -566,7 +572,7 @@ Scenario: Deletion of the Card
 	And I enter "Ravi" as "Surname"
     And I select "Male" as "Gender"
 	And click on "Card not Required" button
-	Then Card details should get Deleted and the focus should go on the Main form
+	Then Card details should get Deleted and the focus should go on the 'Dashboard form' 
 	
 Scenario: Deletion of the card with added details	
 	
@@ -615,7 +621,8 @@ Scenario: Cancel button
 	Then I should get a Warning Popup "Are you Sure you want to Remove the Victim "
 	And I should view two button "No , Cancel "and "Yes,Remove"
 	And click on "No , Cancel" button
-	And the Popup should get close and the focus should be on Victim Object Editor form	
+	And the Popup should get close 
+	And the focus should be on Victim Object Editor form	
 	
     Given user is on the Victim Object Editor form	
 	When user click on "Delete Victim" button

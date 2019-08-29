@@ -2,7 +2,6 @@ package com.northgateps.cm.intel.stepDefs;
 
 import com.northgateps.cm.intel.WebMobileWrappers.IntelWebMobileWrapper;
 import com.northgateps.cm.investigation.WebMobileWrappers.InvWebMobileWrapper;
-
 import cucumber.api.DataTable;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
@@ -17,6 +16,7 @@ public class IntelFTS01 {
 	private IntelWebMobileWrapper intelWebMobileWrapper;
 	private  InvWebMobileWrapper invWebMobileWrapper;
 	
+	
 
 	public IntelFTS01() throws Exception {
 		System.out.println(this.getClass().getName() + " is running..");
@@ -24,20 +24,52 @@ public class IntelFTS01 {
 		invWebMobileWrapper = new InvWebMobileWrapper();
 	}
 
- 	//@Before
+ 	//Forensic Investigation login
 	
-	
-	
-	@Given("^User is on Card Index screen for a 'Create intelligence report'$")
-	public void userIsOnCardIndexScreenForACreateIntelligenceReport() throws Exception {
+	@Given("^user is on Card Index screen for a 'Create intelligence report'$")
+	public void userIsOnCardIndexScreenForACreateIntelligenceReport() throws Throwable {
+	    
 		try {
 			intelWebMobileWrapper.userIsOnCardIndexScreenForACreateIntelligenceReport();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	//@When("^user clicks on \"([^\"]*)\" card with Link Reason \"([^\"]*)\"$")
+	//public void userClicksOnCardWithLinkReason(String cardName, String LinkReason) throws Throwable {
+		
+		//try {
+			//intelWebMobileWrapper.userClicksOnCardWithLinkReason(cardName, LinkReason);
+		//} catch (Exception e) {
+			// TODO Auto-generated catch block
+			//e.printStackTrace();
+		//}
+	//}
+	
+	@When("^User clicks on \"(.*?)\" card with Link Reason \"(.*?)\"$")
+	public void userClicksOnCardWithLinkReason(String cardName, String LinkReason) throws Exception {
+		try {
+			intelWebMobileWrapper.userClicksOnCardWithLinkReason(cardName, LinkReason);
 		} catch (Exception e) {
 			intelWebMobileWrapper.CloseFailedTest(LogFilePath, LogFilePath, "", TestName, e);
 		} catch (AssertionError e) {
 			intelWebMobileWrapper.CloseFailedTest(LogFilePath, LogFilePath, "", TestName, e.fillInStackTrace());
 		}
 	}
+	
+	
+//	@Given("^User is on Card Index screen for a 'Create intelligence report'$")
+	//public void userIsOnCardIndexScreenForACreateIntelligenceReport() throws Exception {
+		//try {
+			//intelWebMobileWrapper.userIsOnCardIndexScreenForACreateIntelligenceReport();
+		//} catch (Exception e) {
+			//intelWebMobileWrapper.CloseFailedTest(LogFilePath, LogFilePath, "", TestName, e);
+		//} catch (AssertionError e) {
+			//intelWebMobileWrapper.CloseFailedTest(LogFilePath, LogFilePath, "", TestName, e.fillInStackTrace());
+		//}
+	//}
 	
 	@After
 	
@@ -65,16 +97,16 @@ public class IntelFTS01 {
 
 	}
 
-	@When("^User clicks on \"(.*?)\" card with Link Reason \"(.*?)\"$")
-	public void userClicksOnCardWithLinkReason(String cardName, String LinkReason) throws Exception {
-		try {
-			intelWebMobileWrapper.userClicksOnCardWithLinkReason(cardName, LinkReason);
-		} catch (Exception e) {
-			intelWebMobileWrapper.CloseFailedTest(LogFilePath, LogFilePath, "", TestName, e);
-		} catch (AssertionError e) {
-			intelWebMobileWrapper.CloseFailedTest(LogFilePath, LogFilePath, "", TestName, e.fillInStackTrace());
-		}
-	}
+	//@When("^User clicks on \"(.*?)\" card with Link Reason \"(.*?)\"$")
+	//public void userClicksOnCardWithLinkReason(String cardName, String LinkReason) throws Exception {
+		//try {
+			//intelWebMobileWrapper.userClicksOnCardWithLinkReason(cardName, LinkReason);
+		//} catch (Exception e) {
+			//intelWebMobileWrapper.CloseFailedTest(LogFilePath, LogFilePath, "", TestName, e);
+		//} catch (AssertionError e) {
+			//intelWebMobileWrapper.CloseFailedTest(LogFilePath, LogFilePath, "", TestName, e.fillInStackTrace());
+		//}
+	//}
 	//Location added from IntelFTS05
 	
 	@When("^User has completed all the fields on the \"(.*?)\" card with Link Reason \"(.*?)\"$")

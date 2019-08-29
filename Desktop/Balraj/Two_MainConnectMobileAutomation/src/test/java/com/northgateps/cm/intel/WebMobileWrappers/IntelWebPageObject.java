@@ -18,6 +18,7 @@ import com.northgateps.cm.common.Workload;
 import com.northgateps.cm.intel.common.EnquiryLog;
 import com.northgateps.cm.intel.common.IntelUtility;
 import com.northgateps.cm.intel.workflow.IntelWorkflowTasks;
+import com.northgateps.cm.investigation.common.InvUtility;
 //import com.northgateps.cm.investigation.common.InvUtility;
 import com.northgateps.cm.platform.api.CardUtility;
 import com.northgateps.cm.platform.api.ConnectMobilePageHelper;
@@ -32,6 +33,7 @@ public class IntelWebPageObject {
 	private Properties properties = null;
 	private CardUtility crdUtility;
 	private IntelUtility intelUtility;
+	private InvUtility invUtility;
 	//private InvUtility invUtility;
 	private EnquiryLog enqLog;
 	private Workload workload;
@@ -60,6 +62,7 @@ public class IntelWebPageObject {
 		EnvName = properties.getProperty("EnvName");
 		//propertyUtility = new PropertyUtility();
 		caseUtility = new CaseUtility();
+		invUtility = new InvUtility();
 	}
 
 	public void userIsOnCardIndexScreenForACreateIntelligenceReport() throws Exception {
@@ -210,7 +213,7 @@ public class IntelWebPageObject {
 			break;
 
 		case "Incident location":
-			//invUtility.clickOnIncidentLocationCard();
+			invUtility.clickOnIncidentLocationCard();
 			break;
 
 		case "M.O.":

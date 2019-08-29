@@ -14,7 +14,7 @@ Scenario:  User  click on Vehicle card and than by  Searching the Vehicle Card ,
 	Given user is on "Vehicle" card
 	And It will display "Are there any Vehicle " involved as "No,card not required" and "Yes,card is required" button
 	When I click on "No,card not required" button
-	Then the focus should be on the Main page
+	Then the focus should be on the 'Dashboard page'
 	
 	
 	Given user is on "Vehicle" card
@@ -68,14 +68,14 @@ Scenario:  Functionality for "Card Not Required" button
 	And I select "Full" as "VRM Type"
 	And I enter " 2002-21-0063" as "VRM"
 	And click on "Card Not Required" button
-	Then the Card should be deleted and focus should be on the Main page
+	Then the Card should be deleted and focus should be on the 'Dashboard page'
 	
 	
     Given user is on Vehicle card selection form
 	And It will display "Are there any Vehicle " involved as "No,card not required" and "Yes,card is required" button
 	When I click on "Yes,card is required" button
 	And I click on "Index" button
-	Then the focus should be on the Main page
+	Then the focus should be on the 'Dashboard page'
 	
 	
 	
@@ -88,7 +88,13 @@ Scenario:  Functionality for "Card Not Required" button
 	And click on the desired search result 
 	Then the Vehicle template should be displayed in Read only mode
 	And click on  "This is the Vehicle " button
-	Then the focus will be on the Object Editor form Tab  "Basic Details" of Vehicle
+	And the focus will be on the Object Editor form Tab  "Basic Details" of Vehicle
+	And when we click on Further Details Tab
+	And click on Save & Return button
+	Then I should receive message "Category cannot be Blank"
+	And I should receive message "Type cannot be Blank"
+	
+	
 	
 	
 	
@@ -134,7 +140,8 @@ Scenario: Add data in Vehicle Basic details,  Future Detail Tab and Examination 
 	And I enter " SW1A 2AA " in Postcode field
 	And I enter " UK " in County field
 	And click on "Save & Return" button
-	Then the record should Save and displayed in the Grid as Vehicle card
+	Then the record should Save 
+	And displayed in the Grid as Vehicle card
 	
 	
 
@@ -179,7 +186,8 @@ Scenario: Add data in Vehicle Basic details,  Future Detail Tab and Examination 
 	And I enter " SW1A 2AA " in Postcode field
 	And I enter " UK " in County field
 	And click on "Save & Return" button
-	Then the record should Save and displayed in the Grid as Vehicle card
+	Then the record should Save 
+	And displayed in the Grid as Vehicle card
 
 
 # Add new Vehicle
@@ -201,7 +209,8 @@ Scenario: Add data in Vehicle Basic details,  Future Detail Tab and Examination 
 	And I enter "234" in Chassis Number field
 	And I select "No" in Examination Required?
 	And click on "Save & Return" button
-	Then the Record should Save and displayed in the grid
+	Then the Record should Save 
+	And displayed in the grid
 
 Scenario: Adding Special char
 
@@ -244,7 +253,8 @@ Scenario: Adding Special char
 	And I enter "!@#$%^&'" in Postcode field
 	And I enter "!@#$%^&'" in County field
 	And click on "Save & Return" button
-	Then the record should Save and displayed in the Grid as Vehicle card
+	Then the record should Save 
+	And displayed in the Grid as Vehicle card
 	
 Scenario: Adding Data length 
 
@@ -287,7 +297,8 @@ Given user is on Vehicle card selection form
 	And I enter characters more than "8" in Postcode field
 	And I enter characters more than "100" in County field
 	And click on "Save & Return" button
-	Then the record should Save and displayed in the Grid as Vehicle card
+	Then the record should Save 
+	And displayed in the Grid as Vehicle card
 
 
 	 
@@ -364,7 +375,8 @@ Scenario: Funtionality of Edit
 	And I update " SW1A 2AB " in Postcode field
 	And I update " UK " in County field
 	And click on "Save & Return" button
-	Then the record should Save and displayed in the Grid as Vehicle card
+	Then the record should Save 
+	And displayed in the Grid as Vehicle card
     	
 	# Deleting the Vehicle card
 	

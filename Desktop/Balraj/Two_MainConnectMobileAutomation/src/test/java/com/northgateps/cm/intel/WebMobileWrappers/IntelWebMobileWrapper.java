@@ -1,5 +1,6 @@
 package com.northgateps.cm.intel.WebMobileWrappers;
 
+import com.northgateps.cm.platform.api.ConnectMobilePageHelper;
 import com.northgateps.cm.platform.api.Utility;
 
 import cucumber.api.DataTable;
@@ -10,11 +11,13 @@ public class IntelWebMobileWrapper {
 	private IntelMobilePageObject intelMobilePageObject;
 	private final String MOBILE = "mobile";
 	private IntelWindowsPageObject intelWindowsPageObject;
+	
 
 	public IntelWebMobileWrapper() throws Exception {
 		intelWebPageObject = new IntelWebPageObject();
 		intelMobilePageObject = new IntelMobilePageObject();
 		intelWindowsPageObject = new IntelWindowsPageObject();
+		
 	}
 
 	public void userIsOnCardIndexScreenForACreateIntelligenceReport() throws Exception {
